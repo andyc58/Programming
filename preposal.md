@@ -13,4 +13,3 @@
 
 ## Do you have any questions of your own?
 
-1. How simple can our project be?
