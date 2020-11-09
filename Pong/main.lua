@@ -20,7 +20,7 @@ function love.load()
     love.graphics.setDefaultFilter('nearest', 'nearest')
 
 
-    love.window.setTitle('Pong')
+    love.window.setTitle('Impossible Pong')
 
 
     math.randomseed(os.time())
@@ -159,18 +159,14 @@ function love.update(dt)
         top_range = player1.y + (player1.height / paddle_segments)
         bottom_range = player1.y + ((paddle_segments-1) * player1.height / paddle_segments)
         
-        --[[
-            The variable speed_offset alters the speed of the paddle by subtracting the base speed of the paddle by a random number in a given range.
-            To increase difficulty, decrease the lower limit or increase the upper limit (Must be between 0 and 200 or the movement will lag)
-            To decrease difficulty, increase the lower limit or decrease the upper limit (Must be between 0 and 200 or the movement will lag)
-        ]]
+      
         
-        speed_offset=math.random(50,140)
+       
         
         if predicted_ball_y > bottom_range then
-            player1.dy = PADDLE_SPEED-speed_offset
+            player1.dy = PADDLE_SPEED
         elseif predicted_ball_y < top_range then
-            player1.dy = -PADDLE_SPEED+speed_offset
+            player1.dy = -PADDLE_SPEED
         else
             player1.dy = 0
         end
