@@ -1,8 +1,0 @@
-{
-    "Lua.diagnostics.globals": [
-        "class_commons",
-        "love",
-        "unpack"
-    ],
-    "git.ignoreLimitWarning": true
-}
