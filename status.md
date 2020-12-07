@@ -26,4 +26,4 @@ I have not yet made it so that it would display a victory message along with the
 
 #### What problems, if any, have you encountered?
 
-I have decided to change my project because I was not getting anywhere with it due to very little communication from my previous group. Now, I am working solo on a twist on the game of Rock Paper Scissors. The project will be completed in Python.
+I have decided to change my project entirely because I was not getting anywhere with it due to very little communication from my previous group. Now, I am working solo on a twist on the game of Rock Paper Scissors. The project will be completed in Python.
