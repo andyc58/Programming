@@ -2,8 +2,8 @@ import random
 import time #https://docs.python.org/3/library/time.html
 
 """Rock Paper Scissors Lizard Spock is a twist on the game rock paper scissors where there are 
-5 objects to choose from instead of the usual three. The game is based off of an episode of The Big Bang Theory that I 
-watched recently. According to Sheldon Cooper, the outcomes are as follows: 
+5 objects to choose from instead of the usual three. The game is based off of an episode of 
+The Big Bang Theory that I watched recently. According to Sheldon Cooper, the outcomes are as follows: 
     *Scissors beats Paper, 
     *Paper beats Rock, 
     *Rock beats Lizard,
