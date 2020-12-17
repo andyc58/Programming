@@ -1,0 +1,185 @@
+
+
+-------session starts-------
+
+[12-17 16:27:14.330] INFO: Got the drag_and_drop directory
+[12-17 16:27:35.231] INFO: lsUserAddedMusicSourceIds=MG1
+[12-17 16:27:35.232] INFO: lsLastTrackFailureLoggingTime=1586455585516
+[12-17 16:27:35.739] WARNING: Tier change detected
+[12-17 16:27:35.741] INFO: Fetched user settings from server.
+[12-17 16:27:35.745] INFO: chromeapp:O ready
+[12-17 16:27:36.634] INFO: MediaGallery: name=/Users/andycherney/Music, galleryId=1, isMediaDevice=false, deviceId=undefined
+[12-17 16:27:36.635] INFO: MediaGallery: name=/Users/andycherney/Pictures, galleryId=2, isMediaDevice=false, deviceId=undefined
+[12-17 16:27:36.635] INFO: MediaGallery: name=/Users/andycherney/Movies, galleryId=3, isMediaDevice=false, deviceId=undefined
+[12-17 16:27:36.637] INFO: Starts a quick scan on /Users/andycherney/Music
+[12-17 16:27:36.638] INFO: Iterating over dir / from source /Users/andycherney/Music
+[12-17 16:27:36.638] INFO: Starts a quick scan on /Users/andycherney/Pictures
+[12-17 16:27:36.638] INFO: Iterating over dir / from source /Users/andycherney/Pictures
+[12-17 16:27:36.639] INFO: Starts a quick scan on /Users/andycherney/Movies
+[12-17 16:27:36.639] INFO: Iterating over dir / from source /Users/andycherney/Movies
+[12-17 16:27:36.647] INFO: Iterating over dir /GarageBand from source /Users/andycherney/Music
+[12-17 16:27:36.649] INFO: Iterating over dir /Photos Library.photoslibrary from source /Users/andycherney/Pictures
+[12-17 16:27:36.653] INFO: Iterating over dir /iMovie Theater.theater from source /Users/andycherney/Movies
+[12-17 16:27:36.655] INFO: Iterating over dir /Downloaded by MediaHuman from source /Users/andycherney/Music
+[12-17 16:27:36.715] INFO: Iterating over dir /Photo Booth Library from source /Users/andycherney/Pictures
+[12-17 16:27:36.727] INFO: Iterating over dir /iMovie Theater.theater/Media from source /Users/andycherney/Movies
+[12-17 16:27:36.729] INFO: Iterating over dir /iTunes from source /Users/andycherney/Music
+[12-17 16:27:36.731] INFO: Iterating over dir /Photo Booth Library/Originals from source /Users/andycherney/Pictures
+[12-17 16:27:36.732] INFO: Iterating over dir /iMovie Theater.theater/Thumbnails from source /Users/andycherney/Movies
+[12-17 16:27:36.736] INFO: Iterating over dir /iTunes/Album Artwork from source /Users/andycherney/Music
+[12-17 16:27:36.737] INFO: Iterating over dir /Photo Booth Library/Pictures from source /Users/andycherney/Pictures
+[12-17 16:27:36.738] INFO: Iterating over dir /iMovie Theater.theater/Archives - 8E5BABCC-008E-4122-B9DF-367AC6F78005 from source /Users/andycherney/Movies
+[12-17 16:27:36.740] INFO: Iterating over dir /iTunes/Album Artwork/Store from source /Users/andycherney/Music
+[12-17 16:27:36.741] INFO: Iterating over dir /Photo Booth Library/Backdrops from source /Users/andycherney/Pictures
+[12-17 16:27:36.742] INFO: Iterating over dir /TV from source /Users/andycherney/Movies
+[12-17 16:27:36.745] INFO: Iterating over dir /iTunes/Album Artwork/Store/53 from source /Users/andycherney/Music
+[12-17 16:27:36.747] INFO: Iterating over dir /Photo Booth Library/Contents from source /Users/andycherney/Pictures
+[12-17 16:27:36.748] INFO: Iterating over dir /TV/TV Library.tvlibrary from source /Users/andycherney/Movies
+[12-17 16:27:36.751] INFO: /Users/andycherney/Pictures does not contain music file
+[12-17 16:27:36.753] INFO: Iterating over dir /iTunes/Album Artwork/Store/53/48 from source /Users/andycherney/Music
+[12-17 16:27:36.753] INFO: Iterating over dir /iMovie Library.imovielibrary from source /Users/andycherney/Movies
+[12-17 16:27:36.756] INFO: Iterating over dir /iTunes/Album Artwork/Store/53/48/48 from source /Users/andycherney/Music
+[12-17 16:27:36.766] INFO: Iterating over dir /iMovie Library.imovielibrary/9-10-19 from source /Users/andycherney/Movies
+[12-17 16:27:36.768] INFO: Iterating over dir /iTunes/Album Artwork/Custom from source /Users/andycherney/Music
+[12-17 16:27:36.771] INFO: Iterating over dir /iMovie Library.imovielibrary/__Temp from source /Users/andycherney/Movies
+[12-17 16:27:36.783] INFO: Iterating over dir /iTunes/Album Artwork/Cloud from source /Users/andycherney/Music
+[12-17 16:27:36.785] INFO: Iterating over dir /iMovie Library.imovielibrary/My Movie from source /Users/andycherney/Movies
+[12-17 16:27:36.787] INFO: Iterating over dir /iTunes/Album Artwork/Download from source /Users/andycherney/Music
+[12-17 16:27:36.788] INFO: Iterating over dir /iMovie Library.imovielibrary/My Movie/Original Media from source /Users/andycherney/Movies
+[12-17 16:27:36.790] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases from source /Users/andycherney/Music
+[12-17 16:27:36.793] INFO: /Users/andycherney/Movies contains music file
+[12-17 16:27:36.796] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715 from source /Users/andycherney/Music
+[12-17 16:27:36.799] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/12 from source /Users/andycherney/Music
+[12-17 16:27:36.802] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/12/07 from source /Users/andycherney/Music
+[12-17 16:27:36.805] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/12/07/14 from source /Users/andycherney/Music
+[12-17 16:27:36.807] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/06 from source /Users/andycherney/Music
+[12-17 16:27:36.810] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/06/03 from source /Users/andycherney/Music
+[12-17 16:27:36.812] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/06/03/06 from source /Users/andycherney/Music
+[12-17 16:27:36.815] INFO: Iterating over dir /iTunes/Album Artwork/Cache from source /Users/andycherney/Music
+[12-17 16:27:36.819] INFO: Iterating over dir /iTunes/Album Artwork/Generated from source /Users/andycherney/Music
+[12-17 16:27:36.821] INFO: Iterating over dir /iTunes/Album Artwork/Generated/2CD3E9F428D38715 from source /Users/andycherney/Music
+[12-17 16:27:36.828] INFO: Iterating over dir /iTunes/Album Artwork/Generated/2CD3E9F428D38715/07 from source /Users/andycherney/Music
+[12-17 16:27:36.830] INFO: Iterating over dir /iTunes/Album Artwork/Generated/2CD3E9F428D38715/07/14 from source /Users/andycherney/Music
+[12-17 16:27:36.832] INFO: Iterating over dir /iTunes/Album Artwork/Generated/2CD3E9F428D38715/07/14/01 from source /Users/andycherney/Music
+[12-17 16:27:36.835] INFO: Iterating over dir /iTunes/iTunes Media from source /Users/andycherney/Music
+[12-17 16:27:36.843] INFO: Iterating over dir /iTunes/iTunes Media/Downloads from source /Users/andycherney/Music
+[12-17 16:27:36.846] INFO: Iterating over dir /iTunes/iTunes Media/Downloads-Music from source /Users/andycherney/Music
+[12-17 16:27:36.850] INFO: Iterating over dir /iTunes/iTunes Media/Automatically Add to Music.localized from source /Users/andycherney/Music
+[12-17 16:27:36.854] INFO: Iterating over dir /iTunes/iTunes Media/Automatically Add to iTunes.localized from source /Users/andycherney/Music
+[12-17 16:27:36.856] INFO: Iterating over dir /iTunes/iTunes Media/Automatically Add to TV.localized from source /Users/andycherney/Music
+[12-17 16:27:36.859] INFO: Iterating over dir /iTunes/iTunes Media/Music from source /Users/andycherney/Music
+[12-17 16:27:36.872] INFO: Iterating over dir /iTunes/iTunes Media/Music/Billy Idol from source /Users/andycherney/Music
+[12-17 16:27:36.904] INFO: Iterating over dir /iTunes/iTunes Media/Music/Billy Idol/Greatest Hits from source /Users/andycherney/Music
+[12-17 16:27:36.907] INFO: Iterating over dir /iTunes/iTunes Media/Music/The Doors from source /Users/andycherney/Music
+[12-17 16:27:36.909] INFO: Iterating over dir /iTunes/iTunes Media/Music/The Doors/The Very Best of the Doors from source /Users/andycherney/Music
+[12-17 16:27:36.911] INFO: Iterating over dir /iTunes/iTunes Media/Music/SoundJay.com Sound Effects from source /Users/andycherney/Music
+[12-17 16:27:36.913] INFO: Iterating over dir /iTunes/iTunes Media/Music/SoundJay.com Sound Effects/Unknown Album from source /Users/andycherney/Music
+[12-17 16:27:36.919] INFO: /Users/andycherney/Music contains music file
+[12-17 16:27:37.18] INFO: MediaGallery: name=/Users/andycherney/Music, galleryId=1, isMediaDevice=false, deviceId=undefined
+[12-17 16:27:37.19] INFO: MediaGallery: name=/Users/andycherney/Pictures, galleryId=2, isMediaDevice=false, deviceId=undefined
+[12-17 16:27:37.20] INFO: MediaGallery: name=/Users/andycherney/Movies, galleryId=3, isMediaDevice=false, deviceId=undefined
+[12-17 16:27:37.21] INFO: lsAppActivated=true
+[12-17 16:27:37.23] INFO: lsSyncMusicEnabled=null
+[12-17 16:27:37.25] INFO: lsAppActivated=true
+[12-17 16:27:37.49] INFO: Update setting: lsUserAddedMusicSourceIds=MG1
+[12-17 16:27:37.50] INFO: lsUserSelectedDownloadDirId=null
+[12-17 16:27:37.58] INFO: lsDefaultDownloadLocationId=null
+[12-17 16:27:37.60] INFO: Setting is already: lsAlwaysUseDefaultDownloadLocation = false
+[12-17 16:27:37.61] INFO: Setting is already: lsDefaultDownloadLocationId = null
+[12-17 16:27:37.62] INFO: /Users/andycherney/Music scan stopped. state: IDLE
+[12-17 16:27:37.64] INFO: /Users/andycherney/Movies scan stopped. state: IDLE
+[12-17 16:27:37.65] INFO: Starts a quick scan on /Users/andycherney/Music
+[12-17 16:27:37.66] INFO: Iterating over dir / from source /Users/andycherney/Music
+[12-17 16:27:37.68] INFO: Starts a quick scan on /Users/andycherney/Pictures
+[12-17 16:27:37.69] INFO: Iterating over dir / from source /Users/andycherney/Pictures
+[12-17 16:27:37.71] INFO: Starts a quick scan on /Users/andycherney/Movies
+[12-17 16:27:37.72] INFO: Iterating over dir / from source /Users/andycherney/Movies
+[12-17 16:27:37.74] INFO: Setting is already: lsUploadStatusIndicatorDismissed = false
+[12-17 16:27:37.76] INFO: Current upload state:
+	Added: 0
+	Total: 0
+	Failed: 0
+	Other Progress: true
+[12-17 16:27:37.84] INFO: lsAppActivated=true
+[12-17 16:27:37.85] INFO: lsDragAndDropActivated=true
+[12-17 16:27:37.85] INFO: Device ID obtained.
+[12-17 16:27:37.86] INFO: Nacl version: 1.0.635.372
+[12-17 16:27:37.87] INFO: lsAppActivated=true
+[12-17 16:27:37.88] INFO: lsSyncMusicEnabled=null
+[12-17 16:27:37.89] INFO: lsAppActivated=true
+[12-17 16:27:37.90] INFO: Setting is already: lsUploadStatusIndicatorDismissed = false
+[12-17 16:27:37.92] INFO: Iterating over dir /GarageBand from source /Users/andycherney/Music
+[12-17 16:27:37.93] INFO: Iterating over dir /Photos Library.photoslibrary from source /Users/andycherney/Pictures
+[12-17 16:27:37.94] INFO: Iterating over dir /iMovie Theater.theater from source /Users/andycherney/Movies
+[12-17 16:27:37.99] INFO: Iterating over dir /Downloaded by MediaHuman from source /Users/andycherney/Music
+[12-17 16:27:37.99] INFO: Iterating over dir /Photo Booth Library from source /Users/andycherney/Pictures
+[12-17 16:27:37.102] INFO: Iterating over dir /iMovie Theater.theater/Media from source /Users/andycherney/Movies
+[12-17 16:27:37.104] INFO: Iterating over dir /iTunes from source /Users/andycherney/Music
+[12-17 16:27:37.107] INFO: Iterating over dir /iMovie Theater.theater/Thumbnails from source /Users/andycherney/Movies
+[12-17 16:27:37.108] INFO: Iterating over dir /Photo Booth Library/Originals from source /Users/andycherney/Pictures
+[12-17 16:27:37.109] INFO: OAuth token retrieved
+[12-17 16:27:37.113] INFO: Iterating over dir /iMovie Theater.theater/Archives - 8E5BABCC-008E-4122-B9DF-367AC6F78005 from source /Users/andycherney/Movies
+[12-17 16:27:37.115] INFO: Iterating over dir /iTunes/Album Artwork from source /Users/andycherney/Music
+[12-17 16:27:37.116] INFO: Iterating over dir /Photo Booth Library/Pictures from source /Users/andycherney/Pictures
+[12-17 16:27:37.119] INFO: Iterating over dir /TV from source /Users/andycherney/Movies
+[12-17 16:27:37.127] INFO: Iterating over dir /iTunes/Album Artwork/Store from source /Users/andycherney/Music
+[12-17 16:27:37.131] INFO: Iterating over dir /Photo Booth Library/Backdrops from source /Users/andycherney/Pictures
+[12-17 16:27:37.143] INFO: Iterating over dir /TV/TV Library.tvlibrary from source /Users/andycherney/Movies
+[12-17 16:27:37.155] INFO: Iterating over dir /iTunes/Album Artwork/Store/53 from source /Users/andycherney/Music
+[12-17 16:27:37.160] INFO: Iterating over dir /Photo Booth Library/Contents from source /Users/andycherney/Pictures
+[12-17 16:27:37.166] INFO: Iterating over dir /iMovie Library.imovielibrary from source /Users/andycherney/Movies
+[12-17 16:27:37.183] INFO: Iterating over dir /iTunes/Album Artwork/Store/53/48 from source /Users/andycherney/Music
+[12-17 16:27:37.187] INFO: /Users/andycherney/Pictures does not contain music file
+[12-17 16:27:37.190] INFO: Iterating over dir /iMovie Library.imovielibrary/9-10-19 from source /Users/andycherney/Movies
+[12-17 16:27:37.193] INFO: Iterating over dir /iTunes/Album Artwork/Store/53/48/48 from source /Users/andycherney/Music
+[12-17 16:27:37.208] INFO: Iterating over dir /iMovie Library.imovielibrary/__Temp from source /Users/andycherney/Movies
+[12-17 16:27:37.225] INFO: Iterating over dir /iTunes/Album Artwork/Custom from source /Users/andycherney/Music
+[12-17 16:27:37.237] INFO: Iterating over dir /iMovie Library.imovielibrary/My Movie from source /Users/andycherney/Movies
+[12-17 16:27:37.239] INFO: Iterating over dir /iTunes/Album Artwork/Cloud from source /Users/andycherney/Music
+[12-17 16:27:37.249] INFO: Iterating over dir /iMovie Library.imovielibrary/My Movie/Original Media from source /Users/andycherney/Movies
+[12-17 16:27:37.251] INFO: Iterating over dir /iTunes/Album Artwork/Download from source /Users/andycherney/Music
+[12-17 16:27:37.265] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases from source /Users/andycherney/Music
+[12-17 16:27:37.273] INFO: /Users/andycherney/Movies contains music file
+[12-17 16:27:37.277] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715 from source /Users/andycherney/Music
+[12-17 16:27:37.280] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/12 from source /Users/andycherney/Music
+[12-17 16:27:37.284] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/12/07 from source /Users/andycherney/Music
+[12-17 16:27:37.288] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/12/07/14 from source /Users/andycherney/Music
+[12-17 16:27:37.290] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/06 from source /Users/andycherney/Music
+[12-17 16:27:37.293] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/06/03 from source /Users/andycherney/Music
+[12-17 16:27:37.296] INFO: Iterating over dir /iTunes/Album Artwork/Cloud Purchases/2CD3E9F428D38715/06/03/06 from source /Users/andycherney/Music
+[12-17 16:27:37.297] INFO: Iterating over dir /iTunes/Album Artwork/Cache from source /Users/andycherney/Music
+[12-17 16:27:37.300] INFO: Iterating over dir /iTunes/Album Artwork/Generated from source /Users/andycherney/Music
+[12-17 16:27:37.302] INFO: Iterating over dir /iTunes/Album Artwork/Generated/2CD3E9F428D38715 from source /Users/andycherney/Music
+[12-17 16:27:37.303] INFO: Iterating over dir /iTunes/Album Artwork/Generated/2CD3E9F428D38715/07 from source /Users/andycherney/Music
+[12-17 16:27:37.311] INFO: Iterating over dir /iTunes/Album Artwork/Generated/2CD3E9F428D38715/07/14 from source /Users/andycherney/Music
+[12-17 16:27:37.320] INFO: Iterating over dir /iTunes/Album Artwork/Generated/2CD3E9F428D38715/07/14/01 from source /Users/andycherney/Music
+[12-17 16:27:37.327] INFO: Iterating over dir /iTunes/iTunes Media from source /Users/andycherney/Music
+[12-17 16:27:37.331] INFO: Iterating over dir /iTunes/iTunes Media/Downloads from source /Users/andycherney/Music
+[12-17 16:27:37.345] INFO: Iterating over dir /iTunes/iTunes Media/Downloads-Music from source /Users/andycherney/Music
+[12-17 16:27:37.347] INFO: Iterating over dir /iTunes/iTunes Media/Automatically Add to Music.localized from source /Users/andycherney/Music
+[12-17 16:27:37.351] INFO: Iterating over dir /iTunes/iTunes Media/Automatically Add to iTunes.localized from source /Users/andycherney/Music
+[12-17 16:27:37.352] INFO: Iterating over dir /iTunes/iTunes Media/Automatically Add to TV.localized from source /Users/andycherney/Music
+[12-17 16:27:37.354] INFO: Iterating over dir /iTunes/iTunes Media/Music from source /Users/andycherney/Music
+[12-17 16:27:37.360] INFO: Iterating over dir /iTunes/iTunes Media/Music/Billy Idol from source /Users/andycherney/Music
+[12-17 16:27:37.363] INFO: Iterating over dir /iTunes/iTunes Media/Music/Billy Idol/Greatest Hits from source /Users/andycherney/Music
+[12-17 16:27:37.364] INFO: Iterating over dir /iTunes/iTunes Media/Music/The Doors from source /Users/andycherney/Music
+[12-17 16:27:37.368] INFO: Iterating over dir /iTunes/iTunes Media/Music/The Doors/The Very Best of the Doors from source /Users/andycherney/Music
+[12-17 16:27:37.370] INFO: Iterating over dir /iTunes/iTunes Media/Music/SoundJay.com Sound Effects from source /Users/andycherney/Music
+[12-17 16:27:37.372] INFO: Iterating over dir /iTunes/iTunes Media/Music/SoundJay.com Sound Effects/Unknown Album from source /Users/andycherney/Music
+[12-17 16:27:37.376] INFO: /Users/andycherney/Music contains music file
+[12-17 16:27:37.376] INFO: lsUserSelectedDownloadDirId=null
+[12-17 16:27:37.377] INFO: lsDefaultDownloadLocationId=null
+[12-17 16:27:37.378] INFO: Setting is already: lsAlwaysUseDefaultDownloadLocation = false
+[12-17 16:27:37.379] INFO: Setting is already: lsDefaultDownloadLocationId = null
+[12-17 16:27:37.379] INFO: lsDefaultDownloadLocationId=null
+[12-17 16:27:37.381] INFO: lsDefaultDownloadLocationId=null
+[12-17 16:27:37.394] INFO: Music source changed, rescan.
+[12-17 16:27:37.394] INFO: lsSyncMusicEnabled=null
+[12-17 16:27:37.395] INFO: lsAppActivated=true
+[12-17 16:27:37.690] INFO: Setting is already: lsUploadStatusIndicatorDismissed = false
+[12-17 16:27:37.690] INFO: Current upload state:
+	Added: 0
+	Total: 0
+	Failed: 0
+	Other Progress: true
+[12-17 16:27:37.710] INFO: Setting is already: lsUploadStatusIndicatorDismissed = false

@@ -1,3 +1,30 @@
 {
-    "workbench.colorTheme": "Tokyo Night Storm"
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "r.bracketedPaste": true,
+    "r.rterm.linux": "/usr/local/bin/radian",
+    "r.rterm.mac": "/usr/local/bin/radian",
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#44ffff",
+        "terminal.ansiBlack": "#1D2021",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#0D6678",
+        "terminal.ansiBrightCyan": "#8BA59B",
+        "terminal.ansiBrightGreen": "#237e02",
+        "terminal.ansiBrightMagenta": "#8F4673",
+        "terminal.ansiBrightRed": "#FB543F",
+        "terminal.ansiBrightWhite": "#FDF4C1",
+        "terminal.ansiBrightYellow": "#FAC03B",
+        "terminal.ansiCyan": "#8BA59B",
+        "terminal.ansiGreen": "#95C085",
+        "terminal.ansiMagenta": "#8F4673",
+        "terminal.ansiRed": "#FB543F",
+        "terminal.ansiWhite": "#A89984",
+        "terminal.ansiYellow": "#FAC03B"
+    },
+    "search.useGlobalIgnoreFiles": true,
+    "cornflakes.linter.executablePath": "/usr/local/bin/flake8",
+    "cornflakes.linter.run": "onType",
+    "r.alwaysUseActiveTerminal": true,
+    "git.autorefresh": false
 }

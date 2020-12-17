@@ -1,0 +1,10 @@
+{
+	"name": "com.webex.meeting",
+	"description": "com.webex.meeting",
+	"path": "/Users/andycherney/Library/Application Support/WebEx Folder/Add-ons/Cisco WebEx Start.app/Contents/MacOS/Cisco WebEx Start",
+	"type": "stdio",
+	"allowed_origins": [ 
+		"chrome-extension://jlhmfgmfgeifomenelglieieghnjghma/"
+	]
+}
+

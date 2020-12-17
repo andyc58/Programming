@@ -1,0 +1,19 @@
+Looking for git in: /usr/local/bin/git
+Using git 2.29.1 from /usr/local/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/andycherney
+> git status -z -u
+> git show --textconv :PycharmProjects/untitled2/main.R
+> git ls-files --stage -- /Users/andycherney/PycharmProjects/untitled2/main.R
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

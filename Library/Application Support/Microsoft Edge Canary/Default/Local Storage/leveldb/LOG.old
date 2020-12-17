@@ -1,0 +1,17 @@
+2020/12/11-21:24:51.965 2b07 Reusing MANIFEST /Users/andycherney/Library/Application Support/Microsoft Edge Canary/Default/Local Storage/leveldb/MANIFEST-000001
+2020/12/11-21:24:51.979 2b07 Recovering log #72
+2020/12/11-21:24:51.982 2b07 Level-0 table #75: started
+2020/12/11-21:24:52.019 2b07 Level-0 table #75: 44485 bytes OK
+2020/12/11-21:24:52.157 2b07 Delete type=0 #72
+2020/12/11-21:26:18.866 2b07 Level-0 table #78: started
+2020/12/11-21:26:18.936 2b07 Level-0 table #78: 47746 bytes OK
+2020/12/11-21:26:19.013 2b07 Delete type=0 #76
+2020/12/11-21:26:19.018 2f03 Compacting 4@0 + 1@1 files
+2020/12/11-21:26:19.129 2f03 Generated table #79@0: 213 keys, 592256 bytes
+2020/12/11-21:26:19.135 2f03 Compacted 4@0 + 1@1 files => 592256 bytes
+2020/12/11-21:26:19.178 2f03 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/12/11-21:26:19.210 2f03 Delete type=2 #75
+2020/12/11-21:26:19.230 2f03 Delete type=2 #71
+2020/12/11-21:26:19.261 2f03 Delete type=2 #73
+2020/12/11-21:26:19.263 2f03 Delete type=2 #69
+2020/12/11-21:26:19.264 2f03 Delete type=2 #78

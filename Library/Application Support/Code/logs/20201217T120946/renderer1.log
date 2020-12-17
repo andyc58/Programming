@@ -1,0 +1,12 @@
+[2020-12-17 12:10:55.666] [renderer1] [error] Unable to write to Workspace Settings because no workspace is opened. Please open a workspace first and try again.: Error: Unable to write to Workspace Settings because no workspace is opened. Please open a workspace first and try again.
+    at k.reject (file:///Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5856:265)
+    at k.resolveAndValidate (file:///Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5859:398)
+    at k.doWriteConfiguration (file:///Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5853:414)
+    at Object.factory (file:///Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5853:190)
+    at u.consume (file:///Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:132:930)
+    at file:///Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:132:745
+    at new Promise (<anonymous>)
+    at u.queue (file:///Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:132:669)
+    at k.writeConfiguration (file:///Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5853:175)
+    at k.writeConfigurationValue (file:///Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5880:461)
+    at file:///Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:5869:762

@@ -2,10 +2,11 @@
     "telemetry.machineId": "3867db332f880fcee40b77637cd6a29acac1609a93ee9208f087c4632b5b8b88",
     "openedPathsList": {
         "workspaces3": [
+            "file:///Users/andycherney/PycharmProjects/Notes",
+            "file:///Users/andycherney/Documents/GitHub/Programming",
             "file:///Users/andycherney/Programming",
             "file:///Users/andycherney/Documents/Programming",
             "file:///Users/andycherney/Documents/Programming-2",
-            "file:///Users/andycherney/Documents/GitHub/Programming",
             "file:///Users/andycherney/Documents/Programming/Python",
             "file:///usr/local/lib/python3.9/site-packages",
             "file:///Users/andycherney/PycharmProjects/pythonProject2",
@@ -97,7 +98,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -106,7 +108,29 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/Users/andycherney/Programming",
+                                        "fsPath": "/Users/andycherney/PycharmProjects/Notes",
+                                        "external": "file:///Users/andycherney/PycharmProjects/Notes",
+                                        "path": "/Users/andycherney/PycharmProjects/Notes",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/PycharmProjects/Notes"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///Users/andycherney/Documents/GitHub/Programming",
+                                        "path": "/Users/andycherney/Documents/GitHub/Programming",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/GitHub/Programming"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///Users/andycherney/Programming",
                                         "path": "/Users/andycherney/Programming",
                                         "scheme": "file"
@@ -135,17 +159,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/Programming-2"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///Users/andycherney/Documents/GitHub/Programming",
-                                        "path": "/Users/andycherney/Documents/GitHub/Programming",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/GitHub/Programming"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -201,16 +214,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/PycharmProjects/Pig"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/Users/andycherney/Documents/Programming/Python.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/Programming/Python (Workspace)"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -768,7 +771,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1701,10 +1705,11 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#24283b",
-    "pickerWorkingDir": "/Users/andycherney/PycharmProjects/untitled2",
+    "pickerWorkingDir": "/Users/andycherney/Documents/GitHub",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/Users/andycherney/Library/Application Support/Code/Backups/1608139023151",
+            "folder": "file:///Users/andycherney/PycharmProjects/Notes",
+            "backupPath": "/Users/andycherney/Library/Application Support/Code/Backups/970890fbf961bfb57998c66bffc044e4",
             "uiState": {
                 "mode": 1,
                 "x": 0,

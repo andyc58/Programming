@@ -1,0 +1,7 @@
+2020/12/11-21:26:56.558 10603 Reusing MANIFEST /Users/andycherney/Library/Application Support/Microsoft Edge Canary/Default/IndexedDB/https_santatracker.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/11-21:26:56.560 10603 Recovering log #3
+2020/12/11-21:26:56.575 10603 Reusing old log /Users/andycherney/Library/Application Support/Microsoft Edge Canary/Default/IndexedDB/https_santatracker.google.com_0.indexeddb.leveldb/000003.log 
+2020/12/11-21:27:25.707 16103 Level-0 table #5: started
+2020/12/11-21:27:25.735 16103 Level-0 table #5: 96238 bytes OK
+2020/12/11-21:27:25.777 16103 Delete type=0 #3
+2020/12/11-21:27:25.781 16103 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

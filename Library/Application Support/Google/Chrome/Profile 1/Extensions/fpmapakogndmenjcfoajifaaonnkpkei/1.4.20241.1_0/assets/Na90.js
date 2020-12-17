@@ -1,0 +1,13 @@
+/*
+COPYRIGHT (C) 2013-2019 PROCTORIO INC.
+USE OF THIS SOFTWARE IS PROTECTED BY COPYRIGHT LAWS AND INTERNATIONAL COPYRIGHT TREATIES,
+AS WELL AS OTHER INTELLECTUAL PROPERTY LAWS AND TREATIES.
+UNAUTHORIZED REPRODUCTION, DISPLAY, MODIFICATION, OR DISTRIBUTION OF THIS SOFTWARE, OR ANY PORTION OF IT,
+MAY RESULT IN SEVERE CIVIL AND CRIMINAL PENALTIES, AND WILL BE PROSECUTED TO THE FULL EXTENT PERMITTED BY LAW.
+USE OF THIS SOFTWARE IS CONDITIONED ON YOUR ACCEPTANCE OF OUR TERMS OF SERVICE, FOUND AT PROCTORIO.COM/TOS.
+OPEN SOURCE LICENSES CAN BE FOUND IN THE LICENSE.TXT FILE OR ONLINE AT PROCTORIO.COM/LICENSES.
+*/
+function fbced5a573de4c31be024f06976e8764(n,v){this.createExamDownloadImages=function(b,w,a,k,c,l){var r=a[0][2]?!c.ferpa.hide_id:!1,t=a[0][3]?!c.ferpa.hide_video:!1,e=0,x=n.lms||"",p=new JSZip,u=!1,m=!1,g=0;b.length>l&&(u=l,m=Math.ceil(b.length/u));var h=b.length/10;k(h);if(r||t){var q=function(){var b=v[0].split("(")[0];p.generateAsync({type:"blob"}).then(function(a){u&&g++;0<g?(k(-1,g,m),saveAs(a,b+" Part "+g+" of "+m+" - Proctorio Exam Export.zip")):saveAs(a,b+" - Proctorio Exam Export.zip")})};
+for(a={$jscomp$loop$prop$index$1:0};a.$jscomp$loop$prop$index$1<b.length;a={$jscomp$loop$prop$index$1:a.$jscomp$loop$prop$index$1},a.$jscomp$loop$prop$index$1++){c=function(a){return function(c){c&&chrome.runtime.sendMessage([80,w,cjs.mi6(b[a.$jscomp$loop$prop$index$1][6]).toString(),!0],function(g){n.get_encrypted_img(y[0],z+"/"+c,g,x,function(f){if(f&&0!=f&&1!=f){var d=document.createElement("canvas");d.style.display="none";d.width=240;d.height=160;var c=d.getContext("2d");c.drawImage(f,0,0,d.width,
+d.height);f=document.createElement("img");f.src=d.toDataURL("image/jpeg");var g=v[3]+" "+(new Date).toLocaleString();n.drawWatermarkImage(g,c,d,f);d=d.toDataURL("image/jpeg");c=(b[a.$jscomp$loop$prop$index$1][5][0]+"_"+b[a.$jscomp$loop$prop$index$1][5][1]+"_attempt_"+b[a.$jscomp$loop$prop$index$1][8]).split(" ").join("_");f=(b[a.$jscomp$loop$prop$index$1][5][0]+"_"+b[a.$jscomp$loop$prop$index$1][5][1]+"_"+Date.now()+".jpeg").split(" ").join("_");p.file(c+"/"+f,d.split(",")[1],{base64:!0});e++;r&&
+t?(e/2>Math.floor(h)&&0==e/2%Math.floor(h)&&k(h),e/2===b.length?(q(),k(-1,1,m)):b.length>l&&0===e/2%l&&(q(),p=new JSZip)):(e>Math.floor(h)&&0==e%Math.floor(h)&&k(h),e===b.length?(q(),k(-1,1,m)):0===e%l&&(q(),p=new JSZip))}})})}}(a);var y=n.parseCDN(b[a.$jscomp$loop$prop$index$1][1][0][4]),z=b[a.$jscomp$loop$prop$index$1][1][0][5],A=t?b[a.$jscomp$loop$prop$index$1][1][0][7][1]:null;c(r?b[a.$jscomp$loop$prop$index$1][1][0][6][1]:null);c(A)}}}}window.top.dispatchEvent(new CustomEvent("fbced5a573de4c31be024f06976e8764"));

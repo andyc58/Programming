@@ -1,0 +1,8 @@
+2020/12/17-12:32:35.386 f617 Reusing MANIFEST /Users/andycherney/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/17-12:32:35.386 f617 Recovering log #2044
+2020/12/17-12:32:35.387 f617 Reusing old log /Users/andycherney/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/002044.log 
+2020/12/17-12:32:35.387 f617 Delete type=2 #2046
+2020/12/17-12:34:31.756 11997 Level-0 table #2046: started
+2020/12/17-12:34:31.780 11997 Level-0 table #2046: 11494 bytes OK
+2020/12/17-12:34:31.823 11997 Delete type=0 #2044
+2020/12/17-12:34:31.824 11997 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,47 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.0.0.3360.2100@192dpi" x="1916" y="518" />
+    <size key="GridCell.Tab.0.left.0.0.3360.2100@192dpi" width="3318" height="502" />
+    <size key="GridCell.Tab.0.center.0.0.3360.2100@192dpi" width="3318" height="502" />
+    <size key="GridCell.Tab.0.right.0.0.3360.2100@192dpi" width="3318" height="502" />
+    <size key="GridCell.Tab.0.bottom.0.0.3360.2100@192dpi" width="3318" height="502" />
+    <size key="find.popup.0.0.3360.2100@192dpi" width="1208" height="980" />
+    <size key="GridCell.Tab.1.left.0.0.3360.2100@192dpi" width="3318" height="622" />
+    <size key="GridCell.Tab.1.center.0.0.3360.2100@192dpi" width="3318" height="622" />
+    <size key="GridCell.Tab.1.right.0.0.3360.2100@192dpi" width="3318" height="622" />
+    <size key="GridCell.Tab.1.bottom.0.0.3360.2100@192dpi" width="3318" height="622" />
+  </component>
+  <component name="WindowManager">
+    <frame x="0" y="23" width="1680" height="963" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="440" y="81" key="#Plugins" timestamp="1597525229042">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="440" y="81" key="#Plugins/0.23.1680.963" timestamp="1597525229042" />
+    <state x="428" y="181" key="IDE.errors.dialog" timestamp="1597524789225">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="428" y="181" key="IDE.errors.dialog/0.23.1680.963" timestamp="1597524789224" />
+    <state x="342" y="70" key="SettingsEditor" timestamp="1597611330891">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="342" y="70" key="SettingsEditor/0.23.1680.963" timestamp="1597611330891" />
+    <state x="840" y="431" key="WELCOME_SCREEN" timestamp="1600142641047">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="840" y="431" key="WELCOME_SCREEN/0.23.1680.963" timestamp="1600142641047" />
+    <state x="473" y="202" key="ide.config.custom.settings" timestamp="1597629209194">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="473" y="202" key="ide.config.custom.settings/0.23.1680.963" timestamp="1597629209194" />
+  </component>
+</application>

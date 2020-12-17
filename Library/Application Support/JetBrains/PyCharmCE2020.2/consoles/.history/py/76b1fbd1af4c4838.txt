@@ -1,0 +1,13 @@
+uninstall altair
+-. . -..- - / . -. - .-. -.--
+!pip install altair vega_datasets
+-. . -..- - / . -. - .-. -.--
+python -m pip install altair vega_datasets
+-. . -..- - / . -. - .-. -.--
+which pip
+-. . -..- - / . -. - .-. -.--
+pip
+-. . -..- - / . -. - .-. -.--
+pip- install altair
+-. . -..- - / . -. - .-. -.--
+pip- install-altair

@@ -1,0 +1,15 @@
+2020/12/17-11:27:09.990 11e03 Reusing MANIFEST /Users/andycherney/Library/Application Support/Google/Chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/12/17-11:27:10.061 11e03 Recovering log #9499
+2020/12/17-11:27:10.064 11e03 Reusing old log /Users/andycherney/Library/Application Support/Google/Chrome/Default/Sync Data/LevelDB/009499.log 
+2020/12/17-11:28:04.922 11e03 Level-0 table #9503: started
+2020/12/17-11:28:04.976 11e03 Level-0 table #9503: 164064 bytes OK
+2020/12/17-11:28:05.031 11e03 Delete type=0 #9499
+2020/12/17-11:28:05.036 fd03 Compacting 4@0 + 1@1 files
+2020/12/17-11:28:05.081 fd03 Generated table #9504@0: 10325 keys, 435493 bytes
+2020/12/17-11:28:05.082 fd03 Compacted 4@0 + 1@1 files => 435493 bytes
+2020/12/17-11:28:05.131 fd03 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/12/17-11:28:05.133 fd03 Delete type=2 #9494
+2020/12/17-11:28:05.133 fd03 Delete type=2 #9496
+2020/12/17-11:28:05.133 fd03 Delete type=2 #9503
+2020/12/17-11:28:05.133 fd03 Delete type=2 #9500
+2020/12/17-11:28:05.133 fd03 Delete type=2 #9498

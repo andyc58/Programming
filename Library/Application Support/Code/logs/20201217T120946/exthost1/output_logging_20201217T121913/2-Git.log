@@ -1,0 +1,8 @@
+Looking for git in: /usr/local/bin/git
+Using git 2.29.1 from /usr/local/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/andycherney
+> git status -z -u
+> git show --textconv :PycharmProjects/untitled2/main.R
+> git ls-files --stage -- /Users/andycherney/PycharmProjects/untitled2/main.R
+> git check-ignore -v -z --stdin

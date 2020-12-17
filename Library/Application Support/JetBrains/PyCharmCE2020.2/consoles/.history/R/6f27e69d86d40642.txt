@@ -1,0 +1,61 @@
+for (i in x[1:2]){
+  print(i)
+}
+-. . -..- - / . -. - .-. -.--
+x[1:2]
+-. . -..- - / . -. - .-. -.--
+x[1:2]
+
+-. . -..- - / . -. - .-. -.--
+x <- "serghjuytfdswertghjuytgfds"
+i<-x[1]
+-. . -..- - / . -. - .-. -.--
+5%%3
+-. . -..- - / . -. - .-. -.--
+x[1]
+-. . -..- - / . -. - .-. -.--
+x[2]
+-. . -..- - / . -. - .-. -.--
+x
+
+-. . -..- - / . -. - .-. -.--
+x<-strsplit(x,"")[1]
+-. . -..- - / . -. - .-. -.--
+x <- "serghjuytfdswertghjuytgfds"
+x<-strsplit(x,"")
+x
+-. . -..- - / . -. - .-. -.--
+x <- "serghjuytfdswertghjuytgfds"
+x<-strsplit(x,"")
+-. . -..- - / . -. - .-. -.--
+x <- "serghjuytfdswertghjuytgfds"
+x<-strsplit(x,"")[2]
+x
+
+-. . -..- - / . -. - .-. -.--
+x
+-. . -..- - / . -. - .-. -.--
+getIndex(x,"r")
+-. . -..- - / . -. - .-. -.--
+x <- "serghjuytfdswertghjuytgfds"
+for (i in seq(nchar(x))){
+  substr(x,1,5)
+}
+-. . -..- - / . -. - .-. -.--
+x <- "serghjuytfdswertghjuytgfds"
+for (i in x){
+  print(substr(x,1,5))
+}
+-. . -..- - / . -. - .-. -.--
+x <- "abcdefghijklmnop"
+r<-list()
+for (i in seq(1,nchar(x)-1)){
+  append(r,substring(x, i, i+1))
+}
+
+print(r)
+-. . -..- - / . -. - .-. -.--
+print(r)
+-. . -..- - / . -. - .-. -.--
+for (i in seq(1,nchar(x)-1)){
+  print(append(r,substring(x, 2*i, 2*(i+1))))

@@ -1,0 +1,6 @@
+<application>
+  <component name="CsvSettings">
+    <option name="enabled" value="false" />
+    <option name="welcomeNotifyShowed" value="true" />
+  </component>
+</application>

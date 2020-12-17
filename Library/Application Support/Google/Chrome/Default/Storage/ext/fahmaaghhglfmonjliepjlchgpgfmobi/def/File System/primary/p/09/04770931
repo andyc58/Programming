@@ -1,0 +1,1654 @@
+TId 4268227392 @ [11-13 16:46:56] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-13 16:46:56] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-13 16:46:56] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [11-13 16:46:57] INF: Running login state 5 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-13 16:46:57] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [11-13 16:46:57] INF: Using uploader id aea8c4ba9786efff334603732af12701b1a450f079113cdf795c3ffe21d09371 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():333]
+TId 4268227392 @ [11-13 16:46:57] ERR: Auth Status (16) [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():357]
+TId 4268227392 @ [11-13 16:46:57] INF: Login attempt complete.  result (17) state (5) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-14 1:38:23] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-14 1:38:23] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-14 1:38:23] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-14 1:38:23] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-14 1:38:23] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-14 1:38:23] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-14 1:38:23] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-14 1:38:23] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-14 1:38:23] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-14 6:39:21] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-14 6:39:21] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-14 6:39:21] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-14 6:39:21] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-14 6:39:21] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-14 6:39:21] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-14 6:39:21] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-14 6:39:21] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-14 6:39:21] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-14 17:0:3] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-14 17:0:3] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-14 17:0:3] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-14 17:0:3] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-14 17:0:3] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-14 17:0:3] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-14 17:0:3] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-14 17:0:3] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-14 17:0:3] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-14 21:39:14] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-14 21:39:14] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-14 21:39:14] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-14 21:39:14] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-14 21:39:14] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-14 21:39:14] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-14 21:39:14] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-14 21:39:14] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-14 21:39:14] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-15 3:57:4] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-15 3:57:4] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-15 3:57:4] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-15 3:57:4] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-15 3:57:4] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-15 3:57:4] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-15 3:57:4] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-15 3:57:4] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-15 3:57:4] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-15 17:5:52] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-15 17:5:52] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-15 17:6:2] ERR: curl_easy_perform failed with 35 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-15 17:6:2] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 2 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-15 17:6:2] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-15 17:6:2] INF: Login attempt complete.  result (0) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-15 17:6:2] DBG: reason=0 attemptCount=1 [AccountSession.cpp:virtual bool AccountSession::ShouldRetryConnectionFailure(AccountSessionSignals::LoginResult, int):694]
+TId 4268227392 @ [11-15 17:6:2] INF: Will reconnect in 1 seconds [AccountSession.cpp:virtual void AccountSession::OnScheduleRelogin():641]
+TId 4268227392 @ [11-15 17:6:3] DBG: AccountSession::reconnectSequence() [AccountSession.cpp:void AccountSession::reconnectSequence(TpnTimerBase&):650]
+TId 4268227392 @ [11-15 17:6:3] DBG: AccountSession::HandleReconnect() [AccountSession.cpp:virtual void AccountSession::HandleReconnect():674]
+TId 4268227392 @ [11-15 17:6:3] INF: Login attempt #1 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-15 17:6:3] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-15 17:6:3] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-15 17:6:3] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-15 17:6:3] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-15 17:6:3] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-15 17:6:3] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-15 17:6:3] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-15 17:6:3] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-16 1:34:5] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-16 1:34:5] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-16 1:34:5] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-16 1:34:5] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-16 1:34:5] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-16 1:34:5] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-16 1:34:5] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-16 1:34:5] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-16 1:34:5] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-16 16:48:4] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-16 16:48:4] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-16 16:48:4] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-16 16:48:4] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-16 16:48:4] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-16 16:48:4] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-16 16:48:4] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-16 16:48:5] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-16 16:48:5] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-17 14:36:53] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-17 14:36:53] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-17 14:36:53] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-17 14:36:53] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-17 14:36:53] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-17 14:36:53] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-17 14:36:53] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-17 14:36:53] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-17 14:36:53] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-17 16:0:46] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-17 16:0:46] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-17 16:0:46] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-17 16:0:46] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-17 16:0:46] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-17 16:0:46] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-17 16:0:46] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-17 16:0:46] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-17 16:0:46] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-17 18:17:59] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-17 18:17:59] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-17 18:17:59] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-17 18:17:59] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-17 18:17:59] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-17 18:17:59] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-17 18:17:59] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-17 18:17:59] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-17 18:17:59] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-18 16:41:2] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-18 16:41:2] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-18 16:41:2] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-18 16:41:2] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-18 16:41:2] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-18 16:41:2] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-18 16:41:2] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-18 16:41:2] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-18 16:41:2] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-19 14:31:57] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-19 14:31:57] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-19 14:31:58] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-19 14:31:58] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIEwzCCA6ugAwIBAgIBBTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJDWjEN
+MAsGA1UECAwEQnJubzEMMAoGA1UECgwDQVZHMR0wGwYDVQQLDBRTb2Z0d2FyZSBE
+ZXZlbG9wbWVudDEXMBUGA1UEAwwOQVZHIHRydXN0ZWQgQ0EwHhcNMjAxMDI4MTYy
+MjM0WhcNMjEwMTIwMTYyMjM0WjBxMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+aWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzETMBEGA1UEChMKR29vZ2xl
+IExMQzEgMB4GA1UEAxMXdXBsb2FkLnZpZGVvLmdvb2dsZS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB427hDjNTG8+Pr3FjYnw7C9FitxobiPnS
+A56jgodcA2d9m+H9R30ghI3GmzvUC0b85xTthV0M9GUA0S07gkHnC9pUENqrQWTk
+kpYZjMjYdpWGOZ6rq04LAdRXR8ydtppuY7b8Ow2MwrCNC6rsZATXK7go9rwsx2e1
+a+HDpuO+GwTUsJDlaKmPm/17fBZTQ1lMaItHz8ZXF0Ynj0Oh2EA40RIyvKzeEPAj
+6mw2cNSANtAmX8qEDVb1ZsvBBHOOgqZgfINulKh2ila8mj6WpN63BUoBJ9/R3QdZ
+XluNxsCfk90bmN3/gW090b32GX0/2h7D3V0jn8Kk+0VdqAFjOIR/AgMBAAGjggFz
+MIIBbzAdBgNVHQ4EFgQUJKJxEEuQjrMAHccPiDOOIZWnYc8wHwYDVR0jBBgwFoAU
+V4tbe6/dgycumVmGz5nXaA9AE7MwggErBgNVHREEggEiMIIBHoIXdXBsb2FkLnZp
+ZGVvLmdvb2dsZS5jb22CFCouY2xpZW50cy5nb29nbGUuY29tghEqLmRvY3MuZ29v
+Z2xlLmNvbYISKi5kcml2ZS5nb29nbGUuY29tghMqLmdkYXRhLnlvdXR1YmUuY29t
+ghAqLmdvb2dsZWFwaXMuY29tghMqLnBob3Rvcy5nb29nbGUuY29tghMqLnVwbG9h
+ZC5nb29nbGUuY29tghQqLnVwbG9hZC55b3V0dWJlLmNvbYIXKi55b3V0dWJlLTNy
+ZC1wYXJ0eS5jb22CEXVwbG9hZC5nb29nbGUuY29tghJ1cGxvYWQueW91dHViZS5j
+b22CH3VwbG9hZHMuc3RhZ2UuZ2RhdGEueW91dHViZS5jb20wDQYJKoZIhvcNAQEL
+BQADggEBAIRknwXDgG5GZNj9ptQvFwVKfFU3zf10uYC6d01bBCdQ0qWbAbp5hS0X
+hbekm5jG4Rcnu8R4ZjOD04ld+l3T+fiAZeO1c+JSmuk6PAvyW31GdZyIwcQydgst
+2jxwdvP0IKmb5kBEDDzr2Y25cMaJunGmmaY41EdB3hnh4hF+4Qe6tugOgPJuB59Y
+6bub38fGsxwL8Pm1Htv51v8dGxJKl2NXE/YduGB+UDPLA+QltBzqr2DUjZRCw2Fu
+nqcbT18EIuYs6+7NvLjEU93oKqJHuCdDatPFM4M1jeY4FVSHXn3iWRodrzrVjRRQ
+SYvUs1Aq7MOBzm3BORyz4VTIOOaZ7Qg=
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-19 14:31:58] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-19 14:31:58] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-19 14:31:58] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-19 14:31:58] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-19 14:31:58] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-20 14:5:21] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-20 14:5:21] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-20 14:5:21] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-20 14:5:21] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-20 14:5:21] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-20 14:5:21] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-20 14:5:21] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-20 14:5:21] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-20 14:5:21] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-21 17:18:42] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-21 17:18:42] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-21 17:18:42] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-21 17:18:42] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-21 17:18:42] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-21 17:18:42] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-21 17:18:42] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-21 17:18:42] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-21 17:18:42] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-22 17:26:59] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-22 17:26:59] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-22 17:27:0] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-22 17:27:0] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-22 17:27:0] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-22 17:27:0] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-22 17:27:0] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-22 17:27:0] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-22 17:27:0] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-23 17:18:33] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-23 17:18:33] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-23 17:18:34] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-23 17:18:34] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-23 17:18:34] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-23 17:18:34] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-23 17:18:34] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-23 17:18:34] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-23 17:18:34] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-26 17:21:28] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-26 17:21:28] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-26 17:21:28] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-26 17:21:28] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-26 17:21:28] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-26 17:21:28] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-26 17:21:28] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-26 17:21:28] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-26 17:21:28] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-27 16:30:40] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-27 16:30:40] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-27 16:30:40] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-27 16:30:40] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-27 16:30:40] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-27 16:30:40] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-27 16:30:40] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-27 16:30:40] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-27 16:30:40] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-27 16:54:15] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-27 16:54:15] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-27 16:54:15] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-27 16:54:15] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-27 16:54:15] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-27 16:54:15] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-27 16:54:15] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-27 16:54:15] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-27 16:54:15] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-27 21:22:43] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-27 21:22:43] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-27 21:22:43] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-27 21:22:43] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-27 21:22:43] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-27 21:22:43] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-27 21:22:43] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-27 21:22:43] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-27 21:22:43] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-28 5:17:10] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-28 5:17:10] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-28 5:17:10] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-28 5:17:10] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-28 5:17:10] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-28 5:17:10] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-28 5:17:10] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-28 5:17:10] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-28 5:17:10] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-29 16:11:53] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-29 16:11:53] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-29 16:11:53] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-29 16:11:53] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-29 16:11:53] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-29 16:11:53] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-29 16:11:53] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-29 16:11:53] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-29 16:11:53] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [11-30 16:50:26] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [11-30 16:50:26] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [11-30 16:50:26] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [11-30 16:50:26] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [11-30 16:50:26] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [11-30 16:50:26] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [11-30 16:50:26] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [11-30 16:50:26] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [11-30 16:50:26] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-1 14:38:40] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-1 14:38:40] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-1 14:38:40] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [12-1 14:38:40] INF: Running login state 5 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-1 14:38:41] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [12-1 14:38:41] INF: Using uploader id aea8c4ba9786efff334603732af12701b1a450f079113cdf795c3ffe21d09371 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():333]
+TId 4268227392 @ [12-1 14:38:41] ERR: Auth Status (16) [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():357]
+TId 4268227392 @ [12-1 14:38:41] INF: Login attempt complete.  result (17) state (5) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-2 14:12:30] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-2 14:12:30] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-2 14:12:31] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-2 14:12:31] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-2 14:12:31] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-2 14:12:31] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-2 14:12:31] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-2 14:12:31] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-2 14:12:31] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-3 14:37:4] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-3 14:37:4] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-3 14:37:4] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [12-3 14:37:5] INF: Running login state 5 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-3 14:37:5] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [12-3 14:37:5] INF: Using uploader id aea8c4ba9786efff334603732af12701b1a450f079113cdf795c3ffe21d09371 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():333]
+TId 4268227392 @ [12-3 14:37:5] ERR: Auth Status (16) [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():357]
+TId 4268227392 @ [12-3 14:37:5] INF: Login attempt complete.  result (17) state (5) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-4 14:11:7] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-4 14:11:7] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-4 14:11:7] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-4 14:11:7] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-4 14:11:7] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-4 14:11:7] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-4 14:11:7] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-4 14:11:7] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-4 14:11:7] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-5 17:34:44] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-5 17:34:44] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-5 17:34:44] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [12-5 17:34:44] INF: Running login state 5 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-5 17:34:44] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [12-5 17:34:44] INF: Using uploader id aea8c4ba9786efff334603732af12701b1a450f079113cdf795c3ffe21d09371 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():333]
+TId 4268227392 @ [12-5 17:34:44] ERR: Auth Status (16) [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():357]
+TId 4268227392 @ [12-5 17:34:44] INF: Login attempt complete.  result (17) state (5) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-6 16:1:46] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-6 16:1:46] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-6 16:1:46] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [12-6 16:1:47] INF: Running login state 5 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-6 16:1:47] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [12-6 16:1:47] INF: Using uploader id aea8c4ba9786efff334603732af12701b1a450f079113cdf795c3ffe21d09371 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():333]
+TId 4268227392 @ [12-6 16:1:47] ERR: Auth Status (16) [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():357]
+TId 4268227392 @ [12-6 16:1:47] INF: Login attempt complete.  result (17) state (5) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-7 16:5:38] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-7 16:5:38] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-7 16:5:38] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-7 16:5:38] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-7 16:5:38] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-7 16:5:38] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-7 16:5:38] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-7 16:5:38] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-7 16:5:38] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-8 17:11:30] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-8 17:11:30] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-8 17:11:30] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-8 17:11:30] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICAq4wDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTEwMzA3
+MzgxMVoXDTIxMDEyNjA3MzgxMVowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCN1wYJ3emV/AFufRrv/Gnql4uC93mhk7iu3mDJw205T5GFC2c7EtWr
+uL50epIrNnyPR3arCeRRdV8Fb4twnq5OXZs/KY5Y3hRg3kNzZMm0yEsV66P3Izhu
+f3Y3HDpjM0dGmQt/NJCmjMAw74OTfTzqkoUjoJevC7boxi96jxEF8By6BXQUqnEP
+tVKGF+H3w5c6LSv+M7wZpf5JHf3rVime2Gap61I0uITbMCIpeatba723KtqEqmTk
+ETyagk0MaBMLUs9QBR+ME1CAvg83kxU6VT8Rc3gWol8BP6I6qPokh9Q9LykNB134
+PrgLELFG1n9CM2c4sSbtd0Y4WroZ8ook
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-8 17:11:30] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-8 17:11:30] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-8 17:11:30] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-8 17:11:31] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-8 17:11:31] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-10 13:3:49] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-10 13:3:49] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-10 13:3:49] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [12-10 13:3:50] INF: Running login state 5 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-10 13:3:50] DBG: HTTP response code 200 returned [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):75]
+TId 4268227392 @ [12-10 13:3:50] INF: Using uploader id aea8c4ba9786efff334603732af12701b1a450f079113cdf795c3ffe21d09371 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():333]
+TId 4268227392 @ [12-10 13:3:50] ERR: Auth Status (16) [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::performUpAuth():357]
+TId 4268227392 @ [12-10 13:3:50] INF: Login attempt complete.  result (17) state (5) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-11 16:40:32] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-11 16:40:32] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-11 16:40:32] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-11 16:40:32] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-11 16:40:32] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-11 16:40:32] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-11 16:40:32] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-11 16:40:32] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-11 16:40:32] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-11 17:1:18] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-11 17:1:18] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-11 17:1:18] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-11 17:1:18] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-11 17:1:18] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-11 17:1:18] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-11 17:1:18] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-11 17:1:19] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-11 17:1:19] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-12 2:30:18] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-12 2:30:18] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-12 2:30:18] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-12 2:30:18] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-12 2:30:18] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-12 2:30:18] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-12 2:30:18] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-12 2:30:18] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-12 2:30:18] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-12 2:41:52] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-12 2:41:52] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-12 2:41:52] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-12 2:41:52] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-12 2:41:52] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-12 2:41:52] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-12 2:41:52] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-12 2:41:52] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-12 2:41:52] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-12 17:44:40] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-12 17:44:40] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-12 17:44:40] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-12 17:44:40] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-12 17:44:40] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-12 17:44:40] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-12 17:44:40] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-12 17:44:41] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-12 17:44:41] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-13 17:23:1] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-13 17:23:1] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-13 17:23:1] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-13 17:23:1] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-13 17:23:1] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-13 17:23:1] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-13 17:23:1] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-13 17:23:1] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-13 17:23:1] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-14 16:52:4] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-14 16:52:4] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-14 16:52:4] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-14 16:52:4] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-14 16:52:4] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-14 16:52:4] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-14 16:52:4] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-14 16:52:4] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-14 16:52:4] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-15 2:13:2] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-15 2:13:2] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-15 2:13:3] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-15 2:13:3] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-15 2:13:3] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-15 2:13:3] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-15 2:13:3] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-15 2:13:3] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-15 2:13:3] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-15 15:26:41] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-15 15:26:41] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-15 15:26:42] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-15 15:26:42] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-15 15:26:42] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-15 15:26:42] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-15 15:26:42] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-15 15:26:42] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-15 15:26:42] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-15 22:9:17] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-15 22:9:17] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-15 22:9:17] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-15 22:9:17] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-15 22:9:17] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-15 22:9:17] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-15 22:9:17] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-15 22:9:17] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-15 22:9:17] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-15 22:45:44] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-15 22:45:44] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-15 22:45:44] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-15 22:45:44] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-15 22:45:44] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-15 22:45:44] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-15 22:45:44] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-15 22:45:44] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-15 22:45:44] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-16 16:23:52] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-16 16:23:52] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-16 16:23:52] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-16 16:23:52] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-16 16:23:52] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-16 16:23:52] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-16 16:23:52] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-16 16:23:52] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-16 16:23:52] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-16 16:53:54] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-16 16:53:54] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-16 16:53:55] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-16 16:53:55] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-16 16:53:55] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-16 16:53:55] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-16 16:53:55] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-16 16:53:55] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-16 16:53:55] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]
+TId 4268227392 @ [12-17 16:27:37] INF: Login attempt #0 start state 3 [AccountSession.cpp:void AccountSession::Login(AccountSession::State):86]
+TId 4268227392 @ [12-17 16:27:37] INF: Running login state 3 [AccountSession.cpp:AccountSessionSignals::LoginResult AccountSession::pumpStateMachine():225]
+TId 4268227392 @ [12-17 16:27:37] ERR: Failed to Verify Certificate: /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com (unable to get local issuer certificate:0x00000000) [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):48]
+TId 4268227392 @ [12-17 16:27:37] ERR: Certificate /C=US/ST=California/L=Mountain View/O=Google LLC/CN=upload.video.google.com:
+-----BEGIN CERTIFICATE-----
+MIIExDCCA6ygAwIBAgICBkkwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCQ1ox
+DTALBgNVBAgMBEJybm8xDDAKBgNVBAoMA0FWRzEdMBsGA1UECwwUU29mdHdhcmUg
+RGV2ZWxvcG1lbnQxFzAVBgNVBAMMDkFWRyB0cnVzdGVkIENBMB4XDTIwMTExMDE0
+Mzk0OVoXDTIxMDIwMjE0Mzk0OFowcTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNh
+bGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2ds
+ZSBMTEMxIDAeBgNVBAMTF3VwbG9hZC52aWRlby5nb29nbGUuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweNu4Q4zUxvPj69xY2J8OwvRYrcaG4j5
+0gOeo4KHXANnfZvh/Ud9IISNxps71AtG/OcU7YVdDPRlANEtO4JB5wvaVBDaq0Fk
+5JKWGYzI2HaVhjmeq6tOCwHUV0fMnbaabmO2/DsNjMKwjQuq7GQE1yu4KPa8LMdn
+tWvhw6bjvhsE1LCQ5Wipj5v9e3wWU0NZTGiLR8/GVxdGJ49DodhAONESMrys3hDw
+I+psNnDUgDbQJl/KhA1W9WbLwQRzjoKmYHyDbpSodopWvJo+lqTetwVKASff0d0H
+WV5bjcbAn5PdG5jd/4FtPdG99hl9P9oew91dI5/CpPtFXagBYziEfwIDAQABo4IB
+czCCAW8wHQYDVR0OBBYEFCSicRBLkI6zAB3HD4gzjiGVp2HPMB8GA1UdIwQYMBaA
+FFeLW3uv3YMnLplZhs+Z12gPQBOzMIIBKwYDVR0RBIIBIjCCAR6CF3VwbG9hZC52
+aWRlby5nb29nbGUuY29tghQqLmNsaWVudHMuZ29vZ2xlLmNvbYIRKi5kb2NzLmdv
+b2dsZS5jb22CEiouZHJpdmUuZ29vZ2xlLmNvbYITKi5nZGF0YS55b3V0dWJlLmNv
+bYIQKi5nb29nbGVhcGlzLmNvbYITKi5waG90b3MuZ29vZ2xlLmNvbYITKi51cGxv
+YWQuZ29vZ2xlLmNvbYIUKi51cGxvYWQueW91dHViZS5jb22CFyoueW91dHViZS0z
+cmQtcGFydHkuY29tghF1cGxvYWQuZ29vZ2xlLmNvbYISdXBsb2FkLnlvdXR1YmUu
+Y29tgh91cGxvYWRzLnN0YWdlLmdkYXRhLnlvdXR1YmUuY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCJfKLHAu6TwP9NInLS9YRrXTunmF0t1kYfGG9iRUqFsyreCIErRqlI
+mK5dhptHSShe7tApV7s+61yS2OB2Es/E0R03dVtlVpbnLoxOAtRu0YGIWimLHD6A
+ACSkuDaGHKfyG1YmC2nLPUjoDde2ZTAhQMVJpTnbto/W0umQcINMs2AOVpEvuTnL
+EOgkDgApQJ0oxAt/5YV+tD5oiUMGDuWYn8rthA7OHo9VwiRuwze9L6VKTg6aj2yf
+cJ/psWCjLyHEPlB80+dI29cILtj+Ig0u4ZQ0twfn04EHymZ3VpIX/5cHqZ8KfZzd
+Q4/nrlp5S8f4lih5bBdvA5i+guFLFeUD
+-----END CERTIFICATE-----
+ [CurlHttpClientImpl.cpp:int CurlSslVerifyCertificate(X509_STORE_CTX*, void*):61]
+TId 4268227392 @ [12-17 16:27:37] ERR: curl_easy_perform failed with 60 [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():407]
+TId 4268227392 @ [12-17 16:27:37] ERR: Certificate error [CurlHttpClientImpl.cpp:virtual HttpClientReturnCode CurlHttpClientImpl::performPrivate():411]
+TId 4268227392 @ [12-17 16:27:37] ERR: Call to https://openidconnect.googleapis.com/v1/userinfo failed with result 3 [CommonHttpClientImpl.cpp:virtual HttpClientReturnCode CommonHttpClientImpl::perform(bool):50]
+TId 4268227392 @ [12-17 16:27:37] ERR: Failed to Send Request Email [RequestEmailClient.cpp:HttpClientReturnCode RequestEmailClient::RequestEmail():35]
+TId 4268227392 @ [12-17 16:27:37] INF: Login attempt complete.  result (18) state (3) [AccountSession.cpp:virtual void AccountSession::OnAttemptComplete(AccountSessionSignals::LoginResult):611]

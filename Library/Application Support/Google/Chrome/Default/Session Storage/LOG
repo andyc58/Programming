@@ -1,0 +1,12 @@
+2020/12/17-11:27:10.524 4903 Reusing MANIFEST /Users/andycherney/Library/Application Support/Google/Chrome/Default/Session Storage/MANIFEST-000001
+2020/12/17-11:27:10.566 4903 Recovering log #1467
+2020/12/17-11:27:10.570 4903 Reusing old log /Users/andycherney/Library/Application Support/Google/Chrome/Default/Session Storage/001467.log 
+2020/12/17-11:27:10.577 2f03 Compacting 4@0 + 1@1 files
+2020/12/17-11:27:10.875 2f03 Generated table #1470@0: 42737 keys, 731272 bytes
+2020/12/17-11:27:10.887 2f03 Compacted 4@0 + 1@1 files => 731272 bytes
+2020/12/17-11:27:10.952 2f03 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/12/17-11:27:10.955 2f03 Delete type=2 #1468
+2020/12/17-11:27:10.960 2f03 Delete type=2 #1464
+2020/12/17-11:27:10.961 2f03 Delete type=2 #1459
+2020/12/17-11:27:10.965 2f03 Delete type=2 #1466
+2020/12/17-11:27:10.974 2f03 Delete type=2 #1462

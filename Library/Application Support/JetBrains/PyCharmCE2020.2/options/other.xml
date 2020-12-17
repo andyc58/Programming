@@ -1,0 +1,82 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="editorAAType" value="No antialiasing" />
+    <option name="ideAAType" value="Greyscale" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="CUSTOMIZE_ACTIONS" value="run" />
+    <property name="Darcula.SavedEditorTheme" value="_@user_Darcula" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FindSplitterProportion" value="0.0" />
+    <property name="InstalledPluginsSearchHistory" value="modules&#10;/color schemes&#10;color schemes" />
+    <property name="KEYMAP" value="R" />
+    <property name="LayoutCode.codeCleanup" value="true" />
+    <property name="LayoutCode.optimizeImports" value="true" />
+    <property name="MarketplacePluginsSearchHistory" value="rainglow&#10;ranglow&#10;rangl&#10;rang&#10;r" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PACKAGE_FILTER" value="radian&#10;ggplot&#10;ffprob&#10;ff&#10;ffmpeg" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="SettingsSearchHistory" value="pack&#10;modules&#10;key&#10;keys&#10;," />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="PC-202.7660.27-c0ccb9220d70f9f9141164f5d97acedf8712b5b3ee3985a482fbc34091494a93" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
+    <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
+    <property name="file.gist.reindex.count" value="88498" />
+    <property name="fileTypeChangedCounter" value="7" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.self.update.started.for.build" value="PC-202.7319.64" />
+    <property name="ignore.power.save.mode" value="true" />
+    <property name="lastSeenTip" value="neue-InspectCode.html" />
+    <property name="lastTimeTipsWereShown" value="1600142714868" />
+    <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />
+    <property name="org.jetbrains.r.editor.welcomeGuide" value="true" />
+    <property name="r.last.update.timestamp" value="1606427665944" />
+    <property name="rplugin.version" value="202.7754" />
+    <property name="seenTips" value="neue-PrintKeywords.html,neue-GoToAction.html,neue-RenameCssSelector.html,neue-RecentChanges.html,neue-ToolWindowsQuickAccess.html,neue-TypeHinting.html,neue-Compare.html,neue-GotoLineInFile.html,neue-SpeedSearch.html,neue-CtrlDotInLookups.html,neue-CtrlShiftI.html,neue-SelectIn.html,neue-WideScreen.html,neue-Multicursor1.html,neue-CtrlShiftIForLookup.html,neue-ScopesInTODO.html,neue-OptimizeImports-py.html,neue-Switcher.html,neue-MethodSeparators.html,neue-CloseOthers.html,neue-InspectCode.html" />
+    <property name="selected.color.option.type" value="METHOD_SEPARATORS_COLOR" />
+    <property name="settings.code.style.selected.tab.Python" value="Tabs and Indents" />
+    <property name="settings.code.style.selected.tab.R" value="Wrapping and Braces" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+  <component name="PyCodeInsightSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FUNCTION" value="true" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_VARIABLE" value="true" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/Music/venv/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/pythonProject/venv/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/pythonProject1/venv/bin/python" value="false" />
+        <entry key="$USER_HOME$/PycharmProjects/pythonProject2/venv/bin/python" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,5 @@
+2019/10/05-18:10:36.224 25a43 Reusing MANIFEST /Users/andycherney/Library/Application Support/Microsoft Edge Canary/Default/IndexedDB/https_go-gale-com.libproxy.temple.edu_0.indexeddb.leveldb/MANIFEST-000001
+2019/10/05-18:10:37.149 1fa23 Level-0 table #5: started
+2019/10/05-18:10:37.152 1fa23 Level-0 table #5: 608 bytes OK
+2019/10/05-18:10:37.158 1fa23 Delete type=0 #3
+2019/10/05-18:10:37.158 1fa23 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
