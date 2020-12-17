@@ -1,0 +1,18 @@
+2020-12-15T22:46:53.347Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-12-15T22:46:53.348Z - info: [ui] [AppStore] found account: andyc58 (andyc58)
+2020-12-15T22:46:54.728Z - info: [ui] launching: 2.6.0 (Mac OS 10.16.0)
+2020-12-15T22:46:54.728Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-12-15T22:46:54.987Z - info: [ui] [BranchPruner] No branches to prune.
+2020-12-15T22:46:55.118Z - info: [ui] Stats reported.
+2020-12-15T22:46:59.133Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.334s)
+2020-12-15T22:47:11.126Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-12-15T22:47:44.803Z - info: [ui] ensureNoUndefinedParentID: 0
+2020-12-15T22:47:44.857Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-12-15T22:47:44.859Z - info: [ui] [AppStore] found account: andyc58 (andyc58)
+2020-12-15T22:47:46.495Z - info: [ui] launching: 2.6.1 (Mac OS 10.16.0)
+2020-12-15T22:47:46.496Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-12-15T22:47:57.728Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-12-15T22:48:56.887Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.381s
+2020-12-15T22:49:01.689Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-12-15T22:49:04.843Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.099s)
+2020-12-15T23:57:44.774Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.073s)

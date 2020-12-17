@@ -1,0 +1,7 @@
+2020-11-10T21:43:39.198Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-11-10T21:43:39.199Z - info: [ui] [AppStore] found account: andyc58 (andyc58)
+2020-11-10T21:43:41.127Z - info: [ui] launching: 2.5.7 (Mac OS 10.15.7)
+2020-11-10T21:43:41.132Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-11-10T21:43:41.234Z - info: [ui] [BranchPruner] No branches to prune.
+2020-11-10T21:43:41.322Z - info: [ui] Stats reported.
+2020-11-10T21:43:42.139Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.038s)

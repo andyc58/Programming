@@ -1,0 +1,35 @@
+=============================================================================
+Title                   : Metallica DOOM and
+                          Metallica DOOM II
+Filename                : METLDOOM.WAD & METLDMII.WAD
+Author                  : Ian Chipman
+Email Address           : outpost@cyberspace.org
+Misc. Author Info       : Metallica rules!
+Description             : Here are some Metallica music for DOOM and DOOM II.
+                          Have fun.
+Additional Credits to   : id Software, Metallica, Andrew Hill,
+                          Master of Midi.
+                          THANKS FOR YOUR INSPIRATION: Ty Knappett (sp?)
+                          THANKS TO EVERYBODY!
+=============================================================================
+Game                    : Both
+Episode and Map # (DOOM): Almost all
+Map # (DOOM II)         : Almost all
+Single Player           : N/A
+Cooperative 2-4 Player  : N/A
+Deathmatch 2-4 Player   : N/A
+Difficulty Settings     : N/A
+New Sounds              : No
+New Graphics            : No
+New Music               : Yes
+Demos Replaced          : None
+Base                    : From scratch
+Tools used              : MIDI2MUS, WinTex, DeuTex
+Known Errors            : None
+
+Authors MAY use this WAD as a base to build additional levels.
+You may do whatever you want with this file.
+Email outpost@cyberspace.org if you have problems with Metallica DOOM.
+
+=============================================================================
+

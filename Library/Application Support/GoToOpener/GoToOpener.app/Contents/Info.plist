@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>GoTo Opener</string>
+	<key>CFBundleIconFile</key>
+	<string>appicon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.logmein.mac.GoToOpener</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>GoTo Opener</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.530</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>530</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.4.0</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2011-2019 LogMeIn, Inc., All Rights Reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>LSFileQuarantineEnabled</key>
+	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>GoTo Opener URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>gotoopener530</string>
+				<string>gotoopener</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>GoTo Opener URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>citrixonline530</string>
+				<string>citrixonline</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

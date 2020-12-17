@@ -1,0 +1,20 @@
+2020-11-20T08:03:34.785Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-11-20T08:03:34.786Z - info: [ui] [AppStore] found account: andyc58 (andyc58)
+2020-11-20T08:03:36.101Z - info: [ui] [BranchPruner] No branches to prune.
+2020-11-20T08:03:36.423Z - info: [ui] launching: 2.5.7 (Mac OS 10.16.0)
+2020-11-20T08:03:36.423Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-11-20T08:03:36.657Z - info: [ui] Stats reported.
+2020-11-20T08:04:11.189Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 1.135s)
+2020-11-20T08:04:12.025Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 1.998s
+2020-11-20T08:04:28.552Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-20T08:04:34.481Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 5.874s)
+2020-11-20T08:05:44.652Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.464s
+2020-11-20T08:05:46.145Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-20T08:05:49.278Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.076s)
+2020-11-20T08:05:49.608Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.1s of which 0.0s paused, total 0.1s
+2020-11-20T08:06:48.232Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.758s
+2020-11-20T08:06:51.697Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-20T08:06:55.083Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.316s)
+2020-11-20T08:08:28.900Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.901s
+2020-11-20T08:08:33.943Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-20T08:08:39.801Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 5.784s)

@@ -1,0 +1,28 @@
+2020-12-07T20:34:55.420Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-12-07T20:34:55.421Z - info: [ui] [AppStore] found account: andyc58 (andyc58)
+2020-12-07T20:34:56.973Z - info: [ui] [BranchPruner] No branches to prune.
+2020-12-07T20:34:57.069Z - info: [ui] launching: 2.6.0 (Mac OS 10.16.0)
+2020-12-07T20:34:57.070Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-12-07T20:34:57.304Z - info: [ui] Stats reported.
+2020-12-07T20:35:00.976Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.410s
+2020-12-07T20:35:04.753Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-12-07T20:35:05.573Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin main:main --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/andyc58/Programming.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/andyc58/Programming.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-12-07T20:35:10.612Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-12-07T20:35:14.312Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-12-07T20:35:17.635Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-12-07T20:35:22.539Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 4.836s)
+2020-12-07T20:37:48.707Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.3s of which 0.0s paused, total 0.3s
+2020-12-07T21:11:11.250Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.4s of which 0.0s paused, total 0.4s
+2020-12-07T21:27:41.556Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.5s of which 0.0s paused, total 0.5s
+2020-12-07T22:43:35.210Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.5s of which 0.0s paused, total 0.5s

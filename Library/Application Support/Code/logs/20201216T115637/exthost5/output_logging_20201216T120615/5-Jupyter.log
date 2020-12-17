@@ -1,0 +1,4 @@
+> /Library/Frameworks/Python.framework/Versions/3.8/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2020.12.414227025/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /Library/Frameworks/Python.framework/Versions/3.8/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2020.12.414227025/pythonFiles/pyvsc-run-isolated.py -c "import jupyter"
+> /Library/Frameworks/Python.framework/Versions/3.8/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2020.12.414227025/pythonFiles/pyvsc-run-isolated.py -c "import notebook"
+> /Library/Frameworks/Python.framework/Versions/3.8/bin/python3 ~/.vscode/extensions/ms-toolsai.jupyter-2020.12.414227025/pythonFiles/pyvsc-run-isolated.py -c "import notebook"

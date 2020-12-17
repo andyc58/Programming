@@ -1,0 +1,15 @@
+2020-11-05T03:40:06.081Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-11-05T03:40:06.082Z - info: [ui] [AppStore] found account: andyc58 (andyc58)
+2020-11-05T03:40:07.443Z - info: [ui] launching: 2.5.6 (Mac OS 10.15.7)
+2020-11-05T03:40:07.444Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-11-05T03:40:07.646Z - info: [ui] Stats reported.
+2020-11-05T03:42:40.067Z - info: [ui] [AppStore] adding repository at /Users/andycherney/Documents/GitHub/Project to store
+2020-11-05T03:43:02.030Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main --set-upstream --progress (took 3.436s)
+2020-11-05T03:43:03.534Z - info: [ui] [BranchPruner] No branches to prune.
+2020-11-05T03:43:12.464Z - info: [main] opening in browser: https://github.com/andyc58/Project
+2020-11-05T03:57:14.763Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2020-11-05T03:57:28.883Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Project' took 0.341s
+2020-11-05T03:57:34.242Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Project - andyc58 (has token)
+2020-11-05T03:57:37.379Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.085s)
+2020-11-05T03:58:21.789Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Project - andyc58 (has token)
+2020-11-05T03:58:44.514Z - info: [main] opening in browser: https://github.com/andyc58/Project

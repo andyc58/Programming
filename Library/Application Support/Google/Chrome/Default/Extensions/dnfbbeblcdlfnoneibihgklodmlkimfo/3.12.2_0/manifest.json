@@ -1,0 +1,43 @@
+{
+   "author": "Survey Junkie Pulse",
+   "background": {
+      "persistent": true,
+      "scripts": [ "dc7d2e71b1132010b01e78fff861e3f1.js" ]
+   },
+   "browser_action": {
+      "default_popup": "browser-action/index.html",
+      "default_title": "Survey Junkie Pulse"
+   },
+   "content_scripts": [ {
+      "js": [ "8ee4ea609a6346c4cf34c2b621ac79ba.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "c7b90d7a6318ed6f7f889e55b8b0de52.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "2fa7b041eea9ee875e012bac495a639c.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "fa19f29fcdd6681776ad80a137c32728.js" ],
+      "matches": [ "https://www.surveyjunkie.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Survey Junkie Pulse Browser Extension",
+   "differential_fingerprint": "1.6699de13b3af0fe339d61398ec12f2fe042f33702ab3f5e2120a1225893f11fc",
+   "icons": {
+      "128": "128x128.png",
+      "16": "16x16.png",
+      "32": "32x32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsES75d8zAbGjuvU6I1w78tr+/JTGc+ZsG1qGhYMEr0yTFWwFX7UajdOYVNaAhAfni+fZzGCaHQS+zqR6g5Wxg8bXQ5E7z+nUdxX4PB491nMj3RbnU95bgaB1/gpUf1KL5oTynVCclFI+ezvIvelufMJi1XZeKKtFZKZ5KhXzcGGn9Pdo/cvzeqN1DwSaF9Tbxn8ZBk3fe3NRixrT2oDTf5wTJeapFjbLDEbXVUIo/yBnimPGpD0eneWCub7l31gzny2fAyyFV3spLhczBXcHPmTwJk2J5rDz3HKSaT7Cri18biRyomCvX7JnmUkVqBdKetuTMMnKsIDN+N63wv9fBwIDAQAB",
+   "manifest_version": 2,
+   "name": "Survey Junkie Pulse",
+   "permissions": [ "notifications", "http://*/*", "https://*/*", "storage", "unlimitedStorage", "tabs", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.12.2",
+   "web_accessible_resources": [ "2ca0fe95fbc1eccd1c996a7868f27294.html", "survey-notification.js", "a181b4673216ad247a0f78066a9646e1.js" ]
+}

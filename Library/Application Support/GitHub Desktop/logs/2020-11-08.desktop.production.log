@@ -1,0 +1,254 @@
+2020-11-08T01:48:36.468Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-11-08T01:48:36.469Z - info: [ui] [AppStore] found account: andyc58 (andyc58)
+2020-11-08T01:48:38.121Z - info: [ui] [BranchPruner] No branches to prune.
+2020-11-08T01:48:38.142Z - info: [ui] launching: 2.5.6 (Mac OS 10.15.7)
+2020-11-08T01:48:38.142Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-11-08T01:48:38.351Z - info: [ui] Stats reported.
+2020-11-08T01:48:38.936Z - info: [ui] [BranchPruner] No branches to prune.
+2020-11-08T01:50:56.446Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Project - andyc58 (has token)
+2020-11-08T01:50:57.080Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.9s of which 0.0s paused, total 0.9s
+2020-11-08T01:51:35.732Z - info: [ui] [AppStore] removing account andyc58 (andyc58) from store
+2020-11-08T01:51:44.319Z - info: [ui] [AppStore] adding account andyc58 (andyc58) to store
+2020-11-08T01:51:59.004Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Project - andyc58 (has token)
+2020-11-08T01:51:59.492Z - error: [ui] `git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --progress origin` exited with an unexpected code: 1.
+stdout:
+Updating 24df882..a4d304b
+
+stderr:
+error: Your local changes to the following files would be overwritten by merge:
+	preposal.md
+Please commit your changes or stash them before you merge.
+Aborting
+
+(The error was parsed as 51: null)
+2020-11-08T01:52:04.763Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Project - andyc58 (has token)
+2020-11-08T01:52:11.427Z - info: [ui] [AppStore. _popStashEntry] popped stash with commit id fefb91b364b80ab9b2d134b8e4b60b13856858f1
+2020-11-08T01:52:21.804Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Project' took 0.335s
+2020-11-08T01:52:26.743Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Project - andyc58 (has token)
+2020-11-08T01:52:30.068Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.272s)
+2020-11-08T01:52:35.984Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-11-08T01:52:36.525Z - info: [ui] [BranchPruner] No branches to prune.
+2020-11-08T01:52:58.511Z - info: [ui] [AppStore] removing account andyc58 (andyc58) from store
+2020-11-08T01:53:08.956Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-11-08T01:53:10.258Z - info: [ui] [BranchPruner] No branches to prune.
+2020-11-08T01:53:10.380Z - info: [ui] launching: 2.5.6 (Mac OS 10.15.7)
+2020-11-08T01:53:10.384Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-11-08T01:53:19.357Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-11-08T01:53:19.358Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=289493a4-8cb5-4791-861a-a9e06e7521dc
+2020-11-08T01:53:21.722Z - info: [main] Processing protocol url
+2020-11-08T01:53:21.757Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-11-08T01:53:22.475Z - info: [ui] [SignInStore] account resolved
+2020-11-08T01:53:22.475Z - info: [ui] [AppStore] adding account andyc58 (andyc58) to store
+2020-11-08T01:53:22.507Z - error: [ui] Error adding account 'andyc58'
+Error: UNIX[No such file or directory]
+2020-11-08T01:54:00.225Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-11-08T01:54:01.169Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-11-08T01:54:01.799Z - info: [ui] launching: 2.5.7 (Mac OS 10.15.7)
+2020-11-08T01:54:01.800Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-11-08T01:54:59.546Z - error: [main] Failed to load metadata for path '/Users/andycherney/Documents/GitHub/Project'
+Error: Command failed: mdls -plist - /Users/andycherney/Documents/GitHub/Project
+
+    at ChildProcess.exithandler (child_process.js:304:12)
+    at ChildProcess.emit (events.js:223:5)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:223:5)
+    at Pipe.<anonymous> (net.js:664:12)
+2020-11-08T01:54:59.661Z - info: [main] Preventing direct open of path '/Users/andycherney/Documents/GitHub/Project' as it appears to be an application bundle
+2020-11-08T01:55:35.023Z - info: [ui] [AppStore] adding account andyc58 (andyc58) to store
+2020-11-08T01:55:35.061Z - error: [ui] Error adding account 'andyc58'
+Error: UNIX[No such file or directory]
+2020-11-08T01:55:55.539Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-11-08T01:55:55.544Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=65ac2abf-5d0a-4ced-b51d-9fa733736a64
+2020-11-08T01:55:57.157Z - info: [main] Processing protocol url
+2020-11-08T01:55:57.163Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-11-08T01:55:57.639Z - info: [ui] [SignInStore] account resolved
+2020-11-08T01:55:57.639Z - info: [ui] [AppStore] adding account andyc58 (andyc58) to store
+2020-11-08T01:55:57.655Z - error: [ui] Error adding account 'andyc58'
+Error: UNIX[No such file or directory]
+2020-11-08T01:57:07.714Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-11-08T01:57:07.715Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=7890124b-5814-4186-bb8c-522523e1edf5
+2020-11-08T01:57:09.172Z - info: [main] Processing protocol url
+2020-11-08T01:57:09.189Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-11-08T01:57:09.638Z - info: [ui] [SignInStore] account resolved
+2020-11-08T01:57:09.639Z - info: [ui] [AppStore] adding account andyc58 (andyc58) to store
+2020-11-08T01:57:09.656Z - error: [ui] Error adding account 'andyc58'
+Error: UNIX[No such file or directory]
+2020-11-08T01:59:58.080Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-11-08T01:59:59.031Z - info: [ui] launching: 2.5.6 (Mac OS 10.15.7)
+2020-11-08T01:59:59.034Z - info: [ui] execPath: '/private/var/folders/n3/kkhdszw97tl8hc30cbvg04140000gn/T/AppTranslocation/DE853961-5F13-4998-983F-81B27B3FE398/d/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-11-08T01:59:59.194Z - error: [ui] Error checking for updates
+Error: Cannot update while running on a read-only volume. The application is on a read-only volume. Please move the application and try again. If you're on macOS Sierra or later, you'll need to move the application out of the Downloads directory. See https://github.com/Squirrel/Squirrel.Mac/issues/182 for more information.
+2020-11-08T02:00:21.368Z - warn: [ui] fetchRepository: 'andyc58 / Programming' returned a 404
+2020-11-08T02:00:21.370Z - info: [ui] [AppStore.getAccountForRemoteURL] no generic credentials found for 'andyc58 / Programming'
+2020-11-08T02:00:21.371Z - info: [ui] proxy url not resolved, protocol not supported
+2020-11-08T02:00:21.437Z - error: [ui] `git -c credential.helper= clone --recursive --progress -- andyc58 / Programming /Users/andycherney/Documents/GitHub/ Programming` exited with an unexpected code: 128.
+stderr:
+fatal: repository 'andyc58 / Programming' does not exist
+
+2020-11-08T02:00:24.486Z - info: [ui] [AppStore.getAccountForRemoteURL] no generic credentials found for 'andyc58 / Programming'
+2020-11-08T02:00:24.488Z - info: [ui] proxy url not resolved, protocol not supported
+2020-11-08T02:00:24.527Z - error: [ui] `git -c credential.helper= clone --recursive --progress -- andyc58 / Programming /Users/andycherney/Documents/GitHub/ Programming` exited with an unexpected code: 128.
+stderr:
+fatal: repository 'andyc58 / Programming' does not exist
+
+2020-11-08T02:00:25.140Z - info: [ui] [AppStore.getAccountForRemoteURL] no generic credentials found for 'andyc58 / Programming'
+2020-11-08T02:00:25.142Z - info: [ui] proxy url not resolved, protocol not supported
+2020-11-08T02:00:25.180Z - error: [ui] `git -c credential.helper= clone --recursive --progress -- andyc58 / Programming /Users/andycherney/Documents/GitHub/ Programming` exited with an unexpected code: 128.
+stderr:
+fatal: repository 'andyc58 / Programming' does not exist
+
+2020-11-08T02:00:25.651Z - info: [ui] [AppStore.getAccountForRemoteURL] no generic credentials found for 'andyc58 / Programming'
+2020-11-08T02:00:25.654Z - info: [ui] proxy url not resolved, protocol not supported
+2020-11-08T02:00:25.691Z - error: [ui] `git -c credential.helper= clone --recursive --progress -- andyc58 / Programming /Users/andycherney/Documents/GitHub/ Programming` exited with an unexpected code: 128.
+stderr:
+fatal: repository 'andyc58 / Programming' does not exist
+
+2020-11-08T02:00:33.856Z - warn: [ui] fetchRepository: 'andyc58 / Programming' returned a 404
+2020-11-08T02:00:33.868Z - info: [ui] [AppStore.getAccountForRemoteURL] no generic credentials found for 'andyc58 / Programming'
+2020-11-08T02:00:33.869Z - info: [ui] proxy url not resolved, protocol not supported
+2020-11-08T02:00:33.892Z - error: [ui] `git -c credential.helper= clone --recursive --progress -- andyc58 / Programming /Users/andycherney/Documents/GitHub/ Programming` exited with an unexpected code: 128.
+stderr:
+fatal: repository 'andyc58 / Programming' does not exist
+
+2020-11-08T02:08:24.737Z - info: [ui] [AppStore.getAccountForRemoteURL] no generic credentials found for 'andyc58 / Programming'
+2020-11-08T02:08:24.740Z - info: [ui] proxy url not resolved, protocol not supported
+2020-11-08T02:08:24.788Z - error: [ui] `git -c credential.helper= clone --recursive --progress -- andyc58 / Programming /Users/andycherney/Documents/GitHub/ Programming` exited with an unexpected code: 128.
+stderr:
+fatal: repository 'andyc58 / Programming' does not exist
+
+2020-11-08T02:16:55.653Z - info: [main] Processing protocol url
+2020-11-08T02:16:58.695Z - info: [ui] [AppStore.getAccountForRemoteURL] no generic credentials found for 'https://github.com/andyc58/Programming.git'
+2020-11-08T02:16:59.489Z - info: [ui] [AppStore] adding repository at /Users/andycherney/Documents/GitHub/Programming to store
+2020-11-08T02:19:54.655Z - info: [ui] storing generic credentials for 'github.com' and 'andyc58'
+2020-11-08T02:19:55.820Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.000s)
+2020-11-08T02:20:45.949Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-11-08T02:20:45.951Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=725bf397-e874-4caf-8578-a9fd755c6c1f
+2020-11-08T02:20:47.273Z - info: [main] Processing protocol url
+2020-11-08T02:20:47.288Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-11-08T02:20:47.804Z - info: [ui] [SignInStore] account resolved
+2020-11-08T02:20:47.804Z - info: [ui] [AppStore] adding account andyc58 (andyc58) to store
+2020-11-08T02:21:56.133Z - info: [ui] [Timing] Action 'create commit' for 'Programming' took 0.309s
+2020-11-08T02:22:04.676Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:22:05.192Z - info: [ui] [BranchPruner] No branches to prune.
+2020-11-08T02:22:26.911Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:22:30.251Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.295s)
+2020-11-08T02:23:29.247Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.262s
+2020-11-08T02:23:30.390Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:23:33.733Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.319s)
+2020-11-08T02:23:52.205Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2020-11-08T02:25:51.471Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:25:53.111Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:27:56.813Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:27:56.865Z - error: [ui] `git -c credential.helper= -c protocol.version=2 revert 88ff060c39912cc7612326e2a12a51cdfb02a5ab` exited with an unexpected code: 1.
+stdout:
+Removing pong/sounds/wall_hit.wav
+Removing pong/sounds/score.wav
+Removing pong/sounds/paddle_hit.wav
+Removing pong/push.lua
+Removing pong/main.lua
+Removing pong/font.ttf
+Removing pong/class.lua
+Removing pong/Paddle.lua
+Removing pong/Ball.lua
+Removing pong/.DS_Store
+CONFLICT (modify/delete): .DS_Store deleted in parent of 88ff060... Pong and modified in HEAD. Version HEAD of .DS_Store left in tree.
+
+stderr:
+error: could not revert 88ff060... Pong
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+(The error was parsed as 13: To finish reverting, please merge and commit the changes.)
+2020-11-08T02:28:18.323Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:28:18.372Z - error: [ui] `git -c credential.helper= -c protocol.version=2 revert 88ff060c39912cc7612326e2a12a51cdfb02a5ab` exited with an unexpected code: 128.
+stderr:
+error: Reverting is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: revert failed
+
+2020-11-08T02:31:11.183Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.019s
+2020-11-08T02:31:56.324Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.018s
+2020-11-08T02:32:00.129Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:32:01.486Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 1.317s)
+2020-11-08T02:32:01.487Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin main:main --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/andyc58/Programming.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/andyc58/Programming.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-11-08T02:32:05.488Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:32:08.090Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:32:08.553Z - error: [ui] `git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --progress origin` exited with an unexpected code: 1.
+stdout:
+CONFLICT (modify/delete): .DS_Store deleted in b7faeccba59f61d631977808fc0dbcb0e38d95af and modified in HEAD. Version HEAD of .DS_Store left in tree.
+Automatic merge failed; fix conflicts and then commit the result.
+
+(The error was parsed as 7: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2020-11-08T02:32:27.869Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:32:31.047Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.137s)
+2020-11-08T02:34:12.589Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.283s
+2020-11-08T02:34:14.408Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:34:17.652Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.209s)
+2020-11-08T02:34:50.182Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:35:00.062Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:35:03.907Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.805s)
+2020-11-08T02:35:39.776Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:35:43.826Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:36:01.466Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:36:05.076Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:36:08.187Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.066s)
+2020-11-08T02:36:13.875Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:36:13.927Z - error: [ui] `git -c credential.helper= -c protocol.version=2 revert 236afd49b1bf38804bc27c1f2cf51ca6a734f2ac` exited with an unexpected code: 1.
+stdout:
+CONFLICT (rename/delete): Pong/.DS_Store deleted in parent of 236afd4... Add Pong Folder and renamed to .DS_Store in HEAD. Version HEAD of .DS_Store left in tree.
+
+stderr:
+error: could not revert 236afd4... Add Pong Folder
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+
+(The error was parsed as 13: To finish reverting, please merge and commit the changes.)
+2020-11-08T02:36:43.462Z - info: [ui] No submodules found. Skipping "git submodule status"
+2020-11-08T02:37:10.162Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.346s
+2020-11-08T02:37:11.894Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:37:15.167Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.229s)
+2020-11-08T02:38:06.277Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:38:09.579Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:38:55.444Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:39:00.254Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:39:04.072Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.763s)
+2020-11-08T02:39:24.640Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2020-11-08T02:40:35.662Z - error: [main] Call to openExternal failed: 'Error: No application in the Launch Services database matches the input criteria.'
+2020-11-08T02:40:48.679Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.287s
+2020-11-08T02:41:02.084Z - info: [ui] No submodules found. Skipping "git submodule status"
+2020-11-08T02:41:14.658Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:41:15.470Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin main:main --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/andyc58/Programming.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/andyc58/Programming.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-11-08T02:41:18.755Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:41:21.545Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:41:23.986Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T02:41:27.618Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.588s)
+2020-11-08T07:33:30.708Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.4s of which 0.0s paused, total 0.4s
+2020-11-08T07:34:08.939Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.360s
+2020-11-08T07:34:10.506Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-08T07:34:13.766Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.219s)

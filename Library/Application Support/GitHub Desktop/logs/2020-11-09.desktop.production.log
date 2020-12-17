@@ -1,0 +1,27 @@
+2020-11-09T02:53:19.211Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-11-09T02:53:19.212Z - info: [ui] [AppStore] found account: andyc58 (andyc58)
+2020-11-09T02:53:20.444Z - info: [ui] launching: 2.5.6 (Mac OS 10.15.7)
+2020-11-09T02:53:20.447Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-11-09T02:53:20.521Z - info: [ui] [BranchPruner] No branches to prune.
+2020-11-09T02:53:20.543Z - info: [ui] Stats reported.
+2020-11-09T02:53:30.542Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.304s
+2020-11-09T02:53:33.453Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-09T02:53:36.952Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.448s)
+2020-11-09T03:00:46.575Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2020-11-09T03:00:53.624Z - info: [ui] No submodules found. Skipping "git submodule status"
+2020-11-09T03:01:02.436Z - info: [ui] No submodules found. Skipping "git submodule status"
+2020-11-09T03:05:59.212Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-11-09T03:05:59.213Z - info: [ui] [AppStore] found account: andyc58 (andyc58)
+2020-11-09T03:06:00.064Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-11-09T03:06:00.608Z - info: [ui] launching: 2.5.7 (Mac OS 10.15.7)
+2020-11-09T03:06:00.609Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-11-09T03:06:32.945Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.397s
+2020-11-09T03:06:34.762Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-09T03:06:38.249Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.438s)
+2020-11-09T03:07:10.091Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.398s
+2020-11-09T03:07:12.389Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-09T03:07:15.430Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.007s)
+2020-11-09T03:08:28.525Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2020-11-09T03:08:33.532Z - info: [ui] [BranchPruner] No branches to prune.
+2020-11-09T03:52:32.466Z - info: [ui] No submodules found. Skipping "git submodule status"
+2020-11-09T03:52:34.475Z - info: [ui] No submodules found. Skipping "git submodule status"

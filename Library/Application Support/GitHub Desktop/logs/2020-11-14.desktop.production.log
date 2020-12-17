@@ -1,0 +1,10 @@
+2020-11-14T03:08:26.745Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-11-14T03:08:26.746Z - info: [ui] [AppStore] found account: andyc58 (andyc58)
+2020-11-14T03:08:28.180Z - info: [ui] launching: 2.5.7 (Mac OS 10.16.0)
+2020-11-14T03:08:28.182Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-11-14T03:08:28.557Z - info: [ui] Stats reported.
+2020-11-14T03:09:14.850Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-14T03:09:20.929Z - info: [ui] [Timing] Action 'create commit' for 'andyc58/Programming' took 0.543s
+2020-11-14T03:09:22.904Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Programming - andyc58 (has token)
+2020-11-14T03:09:26.142Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 3.186s)
+2020-11-14T03:09:28.643Z - info: [main] opening in browser: https://github.com/andyc58/Programming

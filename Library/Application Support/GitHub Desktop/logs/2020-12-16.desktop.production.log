@@ -1,0 +1,2 @@
+2020-12-16T05:12:53.944Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 16.513s)
+2020-12-16T05:23:09.848Z - info: [ui] [BranchPruner] Last prune took place in 17 hours - skipping
