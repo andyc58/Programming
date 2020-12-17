@@ -1,5 +1,5 @@
 import random
-import time #https://docs.python.org/3/library/time.html
+import time  # https://docs.python.org/3/library/time.html
 
 """Rock Paper Scissors Lizard Spock is a twist on the game rock paper scissors where there are 
 5 objects to choose from instead of the usual three. The game is based off of an episode of 
@@ -15,7 +15,9 @@ The Big Bang Theory that I watched recently. According to Sheldon Cooper, the ou
     *Spock beats Rock
     *Rock beats Scissors """
 
-#This function defines all possible outcomes of the game
+# This function defines all possible outcomes of the game
+
+
 def outcomes(p1_input, p2_input, p2_name):
     # Tie
     if p1_input == p2_input:
@@ -82,6 +84,8 @@ def outcomes(p1_input, p2_input, p2_name):
         return "{} wins! {} crushes {}".format(p2_name, p2_input, p1_input)
 
 # This function Simulates a Player vs Computer Turn and returns the score of each turn
+
+
 def PVC(scores):
     choice = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]
     p1 = input("Your turn, Choose Rock, Paper, Scissors, Lizard, or Spock: ")
@@ -98,7 +102,8 @@ def PVC(scores):
 
     for i in ["Rock", "Paper", "Scissors", "Lizard", "Spock", "!!!"]:
         print(i, end=" ")
-        time.sleep(0.3) #Adds a time Delay when printing the message in between player inputs
+        # Adds a time Delay when printing the message in between player inputs
+        time.sleep(0.3)
     print()
     print("Computer chose: " + computer_input)
 
@@ -109,6 +114,8 @@ def PVC(scores):
     return outcomes(p1, computer_input, "Computer")
 
 # This function Simulates a Player vs Player Turn and returns the score of each turn
+
+
 def PVP(scores):
     choices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]
     p1 = input("Your turn, Choose Rock, Paper, Scissors, Lizard, or Spock: ")
@@ -124,10 +131,12 @@ def PVP(scores):
         time.sleep(0.3)
     print(22 * "\n")
 
-    p2 = input("Player 2's turn, choose Choose Rock, Paper, Scissors, Lizard, or Spock: ")
+    p2 = input(
+        "Player 2's turn, choose Choose Rock, Paper, Scissors, Lizard, or Spock: ")
     p2 = p2.capitalize()
     while p2 not in choices:
-        p2 = input("Player 2's turn, choose Choose Rock, Paper, Scissors, Lizard, or Spock: ")
+        p2 = input(
+            "Player 2's turn, choose Choose Rock, Paper, Scissors, Lizard, or Spock: ")
         p2 = p2.capitalize()
         if p2 in choices:
             break
@@ -140,10 +149,12 @@ def PVP(scores):
     return outcomes(p1, p2, player2name)
 
 
-player1_name = input("Welcome to Rock paper Scissors!!!!!!!! Enter your name: ")
+player1_name = input(
+    "Welcome to Rock paper Scissors!!!!!!!! Enter your name: ")
 scoreboard = [0, 0]
 print("Welcome, " + player1_name + "!")
-Choose_game = int(input("Play with the computer or another player? Press 1 or 2: "))
+Choose_game = int(
+    input("Play with the computer or another player? Press 1 or 2: "))
 if Choose_game == 1:
     done = False
     while not done:
@@ -153,12 +164,13 @@ if Choose_game == 1:
         play_again = play_again.capitalize()
         if play_again != "Y":
             done = True
-    print("{} {} : Computer {} ".format(player1_name, scoreboard[0], scoreboard[1]))
-
+    print("{} {} : Computer {} ".format(
+        player1_name, scoreboard[0], scoreboard[1]))
 
 
 else:
-    player2name = input("Welcome to Rock paper Scissors!!!!!!!! Enter your name: ")
+    player2name = input(
+        "Welcome to Rock paper Scissors!!!!!!!! Enter your name: ")
     print("Welcome, " + player2name + "!")
 
     done = False
@@ -168,8 +180,5 @@ else:
         play_again = play_again.capitalize()
         if play_again != "Y":
             done = True
-    print("{} {} , {} {}".format(player1_name, scoreboard[0], player2name, scoreboard[1]))
-
-
-
-
+    print("{} {} , {} {}".format(player1_name,
+                                 scoreboard[0], player2name, scoreboard[1]))
