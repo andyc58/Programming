@@ -1,0 +1,37 @@
+.stock-form button{
+    margin-left: 2px;
+}
+
+.banner {
+    height: 75px;
+    margin: 0px-10px 10px;
+    background-color: rgb(66,153,247);
+    border-radius: 2px;
+}
+.banner h1{
+    color: white;
+    padding-top: 9px;
+    margin-left: 2%
+    display: inline-block;
+    text-align: center;
+}
+.banner h2{
+    display: inline-block;
+    margin: auto;
+    width: 58%;
+    text-align: center;
+
+}
+
+.banner Img{
+    position: absolute;
+    display: inline-block;
+    margin-top: -83px;
+    float: right;
+    right: 10px;
+    height: 75px;
+}
+
+
+
+
