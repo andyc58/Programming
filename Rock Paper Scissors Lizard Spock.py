@@ -18,7 +18,7 @@ The Big Bang Theory that I watched recently. According to Sheldon Cooper, the ou
 # This function defines all possible outcomes of the game
 
 
-def outcomes(p1_input, p2_input, p2_name):
+def get_outcome(p1_input, p2_input, p2_name):
     # Tie
     if p1_input == p2_input:
         return "It's a Tie!"
@@ -107,11 +107,11 @@ def PVC(scores):
     print()
     print("Computer chose: " + computer_input)
 
-    if "You win" in outcomes(p1, computer_input, "Computer"):
+    if "You win" in get_outcome(p1, computer_input, "Computer"):
         scores[0] += 1
-    elif "Computer wins" in outcomes(p1, computer_input, "Computer"):
+    elif "Computer wins" in get_outcome(p1, computer_input, "Computer"):
         scores[1] += 1
-    return outcomes(p1, computer_input, "Computer")
+    return get_outcome(p1, computer_input, "Computer")
 
 # This function Simulates a Player vs Player Turn and returns the score of each turn
 
@@ -142,11 +142,11 @@ def PVP(scores):
             break
 
 # Checks the win text and increments the score up by 1
-    if "You win!" in outcomes(p1, p2, player2name):
+    if "You win!" in get_outcome(p1, p2, player2name):
         scores[0] += 1
-    elif "{} wins!".format(player2name) in outcomes(p1, p2, player2name):
+    elif "{} wins!".format(player2name) in get_outcome(p1, p2, player2name):
         scores[1] += 1
-    return outcomes(p1, p2, player2name)
+    return get_outcome(p1, p2, player2name)
 
 
 player1_name = input(
