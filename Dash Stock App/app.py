@@ -86,9 +86,9 @@ app.layout = html.Div([
 @app.callback(
     [Output('graph', 'figure')],
     [Input('submit-button', 'n_clicks'), State('stock-input-box', 'value'),
-     ],[Input('graph', 'relayoutData')]
+     ]
 )
-def update(clicks, input_stock,relayout_data):
+def update(clicks, input_stock):
     
     try:
         ticker = Ticker(input_stock)
@@ -99,16 +99,8 @@ def update(clicks, input_stock,relayout_data):
 
     df = ticker.history(period='5y')
     company_name = ticker.info['shortName']
- 
-    
-    if relayout_data is not None and all(re.match(r'\d{4}-\d{2}-\d{2}', 
-                        str(i)) for i in relayout_data.values()):
-            start,end = relayout_data.values()
-            
-            filtered_df = df.loc[start:end]
-            fig = make_graph(filtered_df,company_name)
-    else:
-         fig = make_graph(df,company_name)
+
+    fig = make_graph(df,company_name)
 
 
     return fig,
