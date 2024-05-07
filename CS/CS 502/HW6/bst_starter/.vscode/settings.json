@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.rmd": "markdown",
+        "bst.h": "c"
+    }
+}
