@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.rmd": "markdown",
-        "__locale": "c",
-        "ios": "c"
-    }
-}
